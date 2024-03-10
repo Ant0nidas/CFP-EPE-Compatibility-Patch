@@ -667,10 +667,16 @@
  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fantasy_cfp_wings_01:0 "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fantasy_cfp_wings_01$"
  
  ##Glasses
+ #Male
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_special_cfp_glasses_01:1 "@cfp_icon! Spectacles"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_special_cfp_glasses_02:1 "@cfp_icon! Wooden Spectacles"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_special_cfp_glasses_01b:1 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_01$ 2"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_special_cfp_glasses_02b:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_cfp_glasses_02b$"
+ #Female
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_special_cfp_glasses_01:1 "@cfp_icon! Spectacles"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_special_cfp_glasses_02:1 "@cfp_icon! Wooden Spectacles"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_special_cfp_glasses_01b:1 "$PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_01$ 2"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_special_cfp_glasses_02b:0 "$PORTRAIT_MODIFIER_custom_special_female_headgear_special_cfp_glasses_02b$"
  
  ## Random debug
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_gaelic_nobility_01_royalty:0 "@epe_icon_celtic_gold! Gaelic High Clothing 1"

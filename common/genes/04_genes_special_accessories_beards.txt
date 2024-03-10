@@ -1110,8 +1110,11 @@ special_genes = {
 				}
 			}
 			
+
+			### SP3 French Beard ### 
+			
 			sp3_beards_straight = {
-				index = 51
+				index = 200
 
 				male = {
 					5 = m_beard_sp3_western_01	# The Ultimate Moustache	

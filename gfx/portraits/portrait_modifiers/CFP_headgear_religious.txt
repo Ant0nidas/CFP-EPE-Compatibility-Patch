@@ -21,7 +21,6 @@
 			  range = { 0 1 }
 			}
 	    }
-	    outfit_tags = { priest_outfit }
 	    weight = {
 	        base = 0
 	        modifier = {
@@ -78,7 +77,7 @@
 			}
 			modifier = {
 				# religious_orthodox_head
-				factor = 0
+				factor = 0 #CFP+EPE edit
 				portrait_religious_head_trigger = yes
 				faith = faith:orthodox
 			}
@@ -169,7 +168,7 @@
 			  range = { 0 1 }
 			}
 		}
-		outfit_tags = { priest_outfit bishop_outfit }
+		outfit_tags = { bishop_outfit }
 	    weight = {
 	        base = 0
 	        modifier = {
@@ -489,7 +488,6 @@
 			  range = { 0 1 }
 			}
 	    }
-	    outfit_tags = { priest_outfit }
 	    weight = {
 	        base = 0
 	        modifier = {

@@ -3,42 +3,8 @@
 	usage = game
 	selection_behavior = weighted_random
 	priority = 4
-
-	## AFR ##
-
-	afr_berber_war = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear_CFP
-				template = afr_war
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			accessory = {
-				mode = add
-				gene = headgear
-				template = no_headgear
-				range = { 0 1 }
-			  }
-		}
-        outfit_tags = { military_outfit }
-        weight = {
-            base = 0
-            modifier = {
-                add = 101 # slightly higher than mena
-                OR = {
-                    portrait_war_nobles_helmet_trigger = {
-                        CULTURE_INPUT = afr_berber
-                    }
-                    portrait_high_nobles_armor_trigger = {
-                        CULTURE_INPUT = afr_berber
-                    }
-                }
-            }
-        }
-	}
 	
-	# High nobles war headgear
+## High nobles war headgear
 	
 	cfp_western_war_high_nobles = {
 		dna_modifiers = {
@@ -888,19 +854,124 @@
 		}
 	}
 
+## Northern
+
+# We redefine vanilla to avoid forced m_headgear_sec_northern_war_nob_01_lo and m_headgear_sec_northern_war_nob_01_hi
+
+    northern_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = northern_war
+				range = { 0.23 0.86 }
+            }
+            accessory = {
+				mode = add
+				gene = headgear_CFP
+				template = no_headgear
+				range = { 0 0.49 }
+			}
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = northern
+                }
+                OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = northern
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = northern
+                    }
+                }
+            }
+        }
+    }
+
+    northern_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = northern_war
+				range = { 0.0 0.23 }
+            }
+            accessory = {
+				mode = add
+				gene = headgear_CFP
+				template = no_headgear
+				range = { 0 0.49 }
+			}
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = northern
+                }
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = northern
+                }
+            }
+        }
+    }
+	
+    northern_war_coppergate = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = northern_war
+				range = { 0.86 1.0 }
+            }
+            accessory = {
+				mode = add
+				gene = headgear_CFP
+				template = no_headgear
+				range = { 0 0.49 }
+			}
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+				portrait_era1_armor_trigger = yes
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = northern
+                }
+					OR = {
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = northern
+					}
+					portrait_high_nobles_armor_trigger = {
+						CULTURE_INPUT = northern
+					}
+				}
+            }
+        }
+    }
+
 ## Northern Pagans
 
 	cfp_norse_war_common = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear
+				gene = headgear_CFP
 				template = cfp_norse_war
 				range = { 0 0.74 }
 			}
 			accessory = {
 			  mode = add
-			  gene = headgear_CFP
+			  gene = headgear
 			  template = no_headgear
 			  range = { 0 1 }
 			}
@@ -925,13 +996,13 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear
+				gene = headgear_CFP
 				template = cfp_norse_war
 				range = { 0.76 1.0 }
 			}
 			accessory = {
 			  mode = add
-			  gene = headgear_CFP
+			  gene = headgear
 			  template = no_headgear
 			  range = { 0 1 }
 			}
@@ -1139,49 +1210,6 @@
             }
         }
     }
-    
-# ## FP3 Iranian ##
-
-#     fp3_iranian_war = {
-#         dna_modifiers = {
-#             accessory = {
-#                 mode = add
-#                 gene = headgear
-#                 template = fp3_iranian_war
-#                 range = { 0 1 } # For the randomness to work correctly
-#             }
-#         }
-#         outfit_tags = { military_outfit }
-#         weight = {
-#             base = 0
-#             modifier = {
-#                 add = 60 # slightly higher than mena
-#                 OR = {
-#                     portrait_war_nobles_helmet_trigger = {
-#                         CULTURE_INPUT = fp3_iranian
-#                     }
-#                     portrait_high_nobles_armor_trigger = {
-#                         CULTURE_INPUT = fp3_iranian
-#                     }
-#                 }
-#                 # has_fp3_dlc_trigger = yes
-#             }
-#             modifier = {
-#                 add = 60 # slightly higher than mena
-#                 OR = {
-#                     portrait_war_nobles_helmet_trigger = {
-#                         CULTURE_INPUT = fp3_iranian
-#                     }
-#                     portrait_high_nobles_armor_trigger = {
-#                         CULTURE_INPUT = fp3_iranian
-#                     }
-#                 }
-#                 is_female = yes
-#                 # has_fp3_dlc_trigger = yes
-#             }
-#         }
-#     }
-	
     ############################################################################################################################################
     ######################################################### EPE ADDED  ###############################################################
     ############################################################################################################################################
@@ -2843,7 +2871,7 @@
 			accessory = {
 				mode = add
 				gene = headgear
-				template = maghreb_war
+				template = afr_war
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
@@ -2861,6 +2889,38 @@
                 portrait_war_nobles_helmet_trigger = {
                     CULTURE_INPUT = epe_maghreb
                 }
+	            has_afr_dlc_trigger = yes					
+			}
+		}
+	}
+
+
+    non_dlc_maghreb_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = mena_war
+				range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = {
+			  mode = add
+			  gene = headgear_CFP
+			  template = no_headgear
+			  range = { 0 1 }
+			}
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50 
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = epe_maghreb
+                }
+                NOT = {
+	                has_afr_dlc_trigger = yes				
+                }				
 			}
 		}
 	}	
@@ -3285,6 +3345,12 @@
                 template = mena_war
                 range = { 0.51 1 }
             }
+            accessory = {
+			  mode = add
+			  gene = headgear_CFP
+			  template = no_headgear
+			  range = { 0 1 }
+			}
         }
         outfit_tags = { military_outfit }
     weight = {
@@ -3313,6 +3379,12 @@
                 template = fp3_iranian_war
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+			  mode = add
+			  gene = headgear_CFP
+			  template = no_headgear
+			  range = { 0 1 }
+			}
         }
         outfit_tags = { military_outfit }
         weight = {
@@ -3342,6 +3414,12 @@
                 template = fp3_iranian_war
                 range = { 0 1 } # For the randomness to work correctly
             }
+            accessory = {
+			  mode = add
+			  gene = headgear_CFP
+			  template = no_headgear
+			  range = { 0 1 }
+			}
         }
         outfit_tags = { military_outfit }
         weight = {

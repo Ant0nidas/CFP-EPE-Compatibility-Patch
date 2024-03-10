@@ -1,10 +1,135 @@
-﻿custom_headgear = {
+﻿#####################################
+#									#
+# 			  HEADGEAR 	1		    #
+#									#
+#####################################
+
+
+custom_headgear = {
 	usage = customization
 	interface_position = 4
 
 	add_accessory_modifiers = {
 		gene = headgear
 		template = no_headgear
+	}
+
+
+	## CE1 ##
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_common
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_era3_common
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_cloak_hoods
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = cloak_hoods
+		template = fp4_western_cloak_hoods
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_low_nobility
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = fp4_western_royalty
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+
+	## Couture of the Capets ##
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = sp3_western_royalty
+		is_valid_custom = {
+			has_dlc_feature = couture_of_the_capets
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = sp3_western_high_nobility
+		is_valid_custom = {
+			has_dlc_feature = couture_of_the_capets
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = sp3_western_nobility
+		is_valid_custom = {
+			has_dlc_feature = couture_of_the_capets
+		}
+	}
+
+	## AFR ##
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = afr_common
+		is_valid_custom = {
+			has_afr_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = afr_low_nobility
+		is_valid_custom = {
+			has_afr_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = afr_high_nobility
+		is_valid_custom = {
+			has_afr_dlc_trigger = yes
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = afr_royalty
+		is_valid_custom = {
+			has_afr_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = afr_imperial
+		is_valid_custom = {
+			has_afr_dlc_trigger = yes
+		}
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = afr_war
+		is_valid_custom = {
+			has_afr_dlc_trigger = yes
+		}
 	}
 
 		### FP3 ###
@@ -67,16 +192,16 @@
 		}
 	}
 
+	## SP1 ##
 	add_accessory_modifiers = {
 		gene = headgear
-
 		template = reward_western_royalty
 		is_valid_custom = {
 			has_reward_item = newsletter_crown
 		}
 	}
 
-	## Elegance of the Empire ##
+	## SP2 Elegance of the Empire ##
 	
 	add_accessory_modifiers = {
 		gene = headgear
@@ -94,8 +219,6 @@
 		}
 	}
 	
-
-
 	### EP2 ###
 
 	add_accessory_modifiers = {
@@ -262,11 +385,6 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_iberian_common
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = fp2_christian_low_nobility
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
@@ -275,20 +393,10 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_iberian_low_nobility 
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = fp2_christian_high_nobility
 		is_valid_custom = {
 			has_fp2_dlc_trigger = yes
 		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_iberian_high_nobility
 	}
 
 	add_accessory_modifiers = {
@@ -458,11 +566,6 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = cfp_norse_war
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
 		template = fp1_royalty
 		is_valid_custom = {
 			has_fp1_dlc_trigger = yes
@@ -529,11 +632,6 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = northern_war
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear
-		template = cfp_hungarian_royalty
 	}
 
 	add_accessory_modifiers = {
@@ -832,10 +930,19 @@
 		template = religious_northern_high
 	}
 
+	#add_accessory_modifiers = {
+	#	gene = hairstyles
+	#	template = rtt_hairstyles
+	#
+	#	is_valid_custom = {
+	#		monarchs_journey_unlock = 1
+	#	}
+	#}
 	add_accessory_modifiers = {
 		gene = headgear
 		template = religious_northern_high
 	}
+
 
 	add_accessory_modifiers = {
 		gene = headgear
@@ -1158,23 +1265,27 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = maghreb_common
+		template = afr_common
 	}	
 	add_accessory_modifiers = {
 		gene = headgear
-		template = maghreb_low_nobility
+		template = afr_low_nobility
 	}	
 	add_accessory_modifiers = {
 		gene = headgear
-		template = maghreb_high_nobility
+		template = afr_high_nobility
 	}
 	add_accessory_modifiers = {
 		gene = headgear
-		template = maghreb_royalty
+		template = afr_royalty
 	}
 	add_accessory_modifiers = {
 		gene = headgear
-		template = maghreb_imperial
+		template = afr_imperial
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = afr_war
 	}
 
 	##########################################################################
@@ -1211,7 +1322,7 @@
 	}
 
 	##########################################################################
-	#### Non-Islamic Iranian 
+	#### Non-Islamic Iranian (Eastern)
 	##########################################################################
 
 	add_accessory_modifiers = {
@@ -1241,6 +1352,43 @@
 	add_accessory_modifiers = {
 		gene = headgear
 		template = early_eastern_iranian_war_closed
+	}
+
+	##########################################################################
+	#### Non-Islamic Iranian (Western)
+	##########################################################################
+
+	add_accessory_modifiers = {
+		gene = headgear
+		template = Western_iranian_commoner
+	}	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = Western_iranian_low_nobility
+	}	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = Western_iranian_high_nobility
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = Western_iranian_royalty
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = Western_iranian_imperial
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = Western_iranian_war
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = Western_iranian_war_closed
+	}
+	add_accessory_modifiers = {
+		gene = headgear
+		template = Western_iranian_imperial_consort
 	}
 
 	##########################################################################
@@ -1296,7 +1444,56 @@
 		gene = headgear
 		template = uyghur_imperial
 	}
+
+
+
+
+
+
+
+
 }
+
+
+
+#####################################
+#									#
+# 			  HEADGEAR 	2		    #
+#									#
+#####################################
+
+custom_headgear_2 = {
+	usage = customization
+	interface_position = 10
+
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = no_headgear
+	}	
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = epe_spymaster_headgears
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = western_high_nobility_independent
+	}
+
+	#add_accessory_modifiers = {
+	#	gene = headgear_2
+	#	template = Venetian_doge
+	#}
+
+
+}
+
+#####################################
+#									#
+# 			  HEADGEAR 	CFP		    #
+#									#
+#####################################
 
 custom_headgear_CFP = {
 	usage = customization
@@ -1305,58 +1502,6 @@ custom_headgear_CFP = {
 	add_accessory_modifiers = {
 		gene = headgear_CFP
 		template = no_headgear
-	}
-	
-	## Couture of the Capets ##
-	
-	add_accessory_modifiers = {
-		gene = headgear_CFP
-		template = sp3_western_royalty
-		is_valid_custom = {
-			has_dlc_feature = couture_of_the_capets
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear_CFP
-		template = sp3_western_high_nobility
-		is_valid_custom = {
-			has_dlc_feature = couture_of_the_capets
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear_CFP
-		template = sp3_western_nobility
-		is_valid_custom = {
-			has_dlc_feature = couture_of_the_capets
-		}
-	}
-	
-	## AFR ##
-
-	add_accessory_modifiers = {
-		gene = headgear_CFP
-		template = afr_common
-		is_valid_custom = {
-			has_afr_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear_CFP
-		template = afr_low_nobility
-		is_valid_custom = {
-			has_afr_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear_CFP
-		template = afr_high_nobility
-		is_valid_custom = {
-			has_afr_dlc_trigger = yes
-		}
 	}
 	
 	add_accessory_modifiers = {
@@ -1369,26 +1514,17 @@ custom_headgear_CFP = {
 	
 	add_accessory_modifiers = {
 		gene = headgear_CFP
-		template = afr_royalty
-		is_valid_custom = {
-			has_afr_dlc_trigger = yes
-		}
+		template = cfp_iberian_common
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear_CFP
+		template = cfp_iberian_low_nobility 
 	}
 
 	add_accessory_modifiers = {
 		gene = headgear_CFP
-		template = afr_imperial
-		is_valid_custom = {
-			has_afr_dlc_trigger = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = headgear_CFP
-		template = afr_war
-		is_valid_custom = {
-			has_afr_dlc_trigger = yes
-		}
+		template = cfp_iberian_high_nobility
 	}
 	
 	add_accessory_modifiers = {
@@ -1465,6 +1601,11 @@ custom_headgear_CFP = {
 		gene = headgear_CFP
 		template = cfp_norman_sicily_war
 	}
+	
+	add_accessory_modifiers = {
+		gene = headgear_CFP
+		template = cfp_norse_war
+	}
 
 	add_accessory_modifiers = {
 		gene = headgear_CFP
@@ -1474,6 +1615,11 @@ custom_headgear_CFP = {
 	add_accessory_modifiers = {
 		gene = headgear_CFP
 		template = cfp_hungarian_high_nobility
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear_CFP
+		template = cfp_hungarian_royalty
 	}
 
 	add_accessory_modifiers = {
@@ -1767,3 +1913,16 @@ custom_headgear_CFP = {
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

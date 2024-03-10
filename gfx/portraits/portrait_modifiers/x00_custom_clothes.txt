@@ -26,6 +26,50 @@
 		}
 	}
 
+	## CE1 ##
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_physician_01
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_bedchamber_clothes
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_era3_low_nobility_clothes
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_era3_high_nobility_clothes
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_era2_low_nobility_clothes
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = fp4_western_era2_high_nobility_clothes
+		is_valid_custom = {
+			has_ce1_dlc_trigger = yes
+		}
+	}
+
 ## EP2 ##
 
 	add_accessory_modifiers = {
@@ -939,17 +983,22 @@
 
 	add_accessory_modifiers = {
 		gene = clothes
-		template = maghreb_commoner_clothes
+		template = afr_commoner_clothes
 	}
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = maghreb_low_nobility_clothes
+		template = afr_low_nobility_clothes
 	}
 	
 	add_accessory_modifiers = {
 		gene = clothes
-		template = maghreb_high_nobility_clothes
+		template = afr_high_nobility_clothes
+	}
+	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = afr_war_nobility_clothes
 	}
 
 	##########################################################################
@@ -971,13 +1020,8 @@
 		template = islamic_iranian_high_nobility_clothes
 	}
 
-	add_accessory_modifiers = {
-		gene = clothes
-		template = islamic_iranian_war_nobility_clothes
-	}
-
 	##########################################################################
-	#### Non-Islamic Iranian
+	#### Non-Islamic Iranian (Eastern)
 	##########################################################################
 
 	add_accessory_modifiers = {
@@ -995,9 +1039,28 @@
 		template = early_eastern_iranian_high_nobility_clothes
 	}
 
+	##########################################################################
+	#### Non-Islamic Iranian (Western)
+	##########################################################################
+
 	add_accessory_modifiers = {
 		gene = clothes
-		template = early_eastern_iranian_war_nobility_clothes
+		template = Western_iranian_commoner_clothes
+	}
+	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = Western_iranian_low_nobility_clothes
+	}
+	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = Western_iranian_high_nobility_clothes
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = Western_iranian_war_nobility_clothes
 	}
 
 	##########################################################################

@@ -61,7 +61,6 @@
 						is_landed = yes 
 						government_has_flag = government_is_theocracy 
 					}
-					has_primary_title = title:k_hungary
 				}
             }
         }
@@ -73,22 +72,16 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear
+				gene = headgear_CFP
 				template = cfp_hungarian_royalty
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear
 				template = no_headgear
 				value = 0
 			}
-			accessory = {
-                mode = add
-                gene = additive_headgear
-                template = no_additive
-                range = { 0 1 }
-            }
 		}	
 		weight = {
 			base = 0
@@ -129,12 +122,6 @@
 				template = no_headgear
 				value = 0
 			}
-			accessory = {
-                mode = add
-                gene = additive_headgear
-                template = no_additive
-                range = { 0 1 }
-            }
 		}	
 		weight = {
 			base = 0
@@ -174,12 +161,6 @@
 				template = no_headgear
 				value = 0
 			}
-			accessory = {
-                mode = add
-                gene = additive_headgear
-                template = no_additive
-                range = { 0 1 }
-            }
 		}
 		weight = {
 			base = 0
@@ -210,12 +191,6 @@
 				template = no_headgear
 				value = 0
 			}
-			accessory = {
-                mode = add
-                gene = additive_headgear
-                template = no_additive
-                range = { 0 1 }
-            }
 		}	
 		weight = {
 			base = 0
@@ -251,12 +226,6 @@
 				template = no_headgear
 				value = 0
 			}
-			accessory = {
-                mode = add
-                gene = additive_headgear
-                template = no_additive
-                range = { 0 1 }
-            }
 		}
 		weight = {
 			base = 0
@@ -336,12 +305,6 @@
 				template = no_headgear
 				value = 0
 			}
-			accessory = {
-                mode = add
-                gene = additive_headgear
-                template = no_additive
-                range = { 0 1 }
-            }
 		}
 		weight = {
 			base = 0
@@ -385,12 +348,6 @@
 				template = no_headgear
 				value = 0
 			}
-			accessory = {
-                mode = add
-                gene = additive_headgear
-                template = no_additive
-                range = { 0 1 }
-            }
 		}
 		weight = {
 			base = 0
@@ -424,12 +381,6 @@
 				template = no_headgear
 				value = 0
 			}
-			accessory = {
-                mode = add
-                gene = additive_headgear
-                template = no_additive
-                range = { 0 1 }
-            }
 		}
 		weight = {
 			base = 0
@@ -482,12 +433,6 @@
 				template = no_headgear
 				value = 0
 			}
-			accessory = {
-                mode = add
-                gene = additive_headgear
-                template = no_additive
-                range = { 0 1 }
-            }
 		}
 		weight = {
 			base = 0
