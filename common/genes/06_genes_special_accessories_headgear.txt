@@ -1,0 +1,4873 @@
+﻿
+special_genes = {
+
+	accessory_genes = {
+
+	#####################################
+	#									#
+	# 			  HEADGEAR 				#
+	#									#
+	#####################################
+
+		
+		headgear = {
+
+			no_headgear = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+
+			all_headgear = {
+				index = 1
+				male = {
+					1 = male_headgear_secular_western_common_01
+					1 = male_headgear_secular_western_common_02
+					1 = male_headgear_secular_dde_hre_common_02
+					1 = male_headgear_secular_dde_hre_high_nobility_02
+					1 = male_headgear_secular_western_high_nobility_01
+					1 = male_headgear_secular_western_royalty_01
+					1 = male_headgear_secular_western_royalty_02
+					1 = male_headgear_secular_dde_hre_imperial_01
+					1 = m_headgear_sec_western_war_nob_01
+					1 = male_headgear_secular_mena_royalty_01
+					1 = male_headgear_secular_mena_common_01
+					1 = male_headgear_secular_mena_nobility_01
+					1 = male_headgear_secular_mena_high_nobility_01
+					1 = male_headgear_religious_dde_muslim_head_01
+					1 = male_headgear_secular_mena_imperial_01
+					1 = male_headgear_secular_mena_war_nobility_01
+					1 = male_headgear_secular_crusades_mena_war_nobility_01
+					1 = male_headgear_religious_catholic_high_01
+					1 = male_headgear_religious_dde_catholic_high_01
+					1 = male_headgear_religious_catholic_head_01
+					1 = male_headgear_secular_dde_hre_royalty_02
+					1 = male_headgear_secular_dde_abbasid_high_nobility_01
+					1 = male_headgear_secular_dde_abbasid_common_01
+					1 = male_headgear_secular_dde_abbasid_common_02
+					1 = male_headgear_secular_dde_abbasid_imperial_01
+					1 = male_headgear_secular_dde_abbasid_war_nobility_01
+					1 = male_headgear_secular_dde_abbasid_royalty_01
+					1 = male_headgear_secular_northern_war_nobility_01
+					1 = male_headgear_secular_northern_common_01
+					1 = male_headgear_secular_byzantine_high_nobility_01
+					1 = male_headgear_secular_byzantine_nobility_01
+					1 = male_headgear_secular_byzantine_imperial_01
+					1 = male_headgear_secular_byzantine_war_nobility_01
+					1 = male_headgear_secular_byzantine_royalty_01
+					1 = male_headgear_secular_steppe_nobility_01
+					1 = male_headgear_secular_steppe_common_01
+					1 = male_headgear_secular_steppe_royalty_01
+					1 = male_headgear_secular_steppe_war_nobility_01
+					1 = male_headgear_secular_sub_saharan_high_nobility_01
+					1 = male_headgear_secular_sub_saharan_common_01
+					1 = male_headgear_secular_sub_saharan_royalty_01
+					1 = male_headgear_secular_sub_saharan_imperial_01
+					1 = male_headgear_secular_indian_high_nobility_01
+					1 = male_headgear_secular_indian_royalty_01
+					1 = male_headgear_secular_indian_imperial_01
+					1 = male_headgear_secular_indian_war_nobility_01
+					1 = male_headgear_secular_crusades_western_war_nobility_01
+					1 = male_headgear_secular_crusades_mena_war_nobility_01
+				# RELIGIOUS #
+					1 = male_headgear_religious_zorastrian_high_01
+					1 = male_headgear_religious_jewish_head_01
+					1 = male_headgear_religious_muslim_high_01
+					1 = male_headgear_religious_dde_muslim_head_01
+					1 = male_headgear_religious_african_high_01
+					1 = male_headgear_religious_steppe_high_01
+					1 = male_headgear_religious_northern_high_01
+				# FP1 # 
+					1 = male_headgear_secular_fp1_common_01
+					1 = male_headgear_secular_fp1_common_02
+					1 = male_headgear_secular_fp1_nobility_01
+					1 = male_headgear_secular_fp1_war_nobility_01
+					1 = male_headgear_secular_fp1_war_nobility_02
+					1 = male_headgear_secular_fp1_royalty_01
+					1 = male_headgear_secular_fp1_imperial_01
+					1 = male_headgear_secular_rtt_nobility_01_low
+				# EP1 # 
+					1 = male_headgear_secular_ep1_western_royalty_01
+					1 = male_headgear_secular_ep1_mena_royalty_01
+					1 = male_headgear_secular_ep1_indian_royalty_01
+					1 = male_headgear_secular_ep1_jester_01
+					1 = male_headgear_secular_ep1_crown_of_justinian
+					1 = male_headgear_secular_ep1_crown_of_lombardy
+					1 = male_headgear_secular_ep1_sassanid_crown
+					1 = male_headgear_secular_ep1_diamond_crown
+					1 = male_headgear_secular_ep1_sub_saharan_royalty_01
+					1 = male_headgear_secular_ep1_mena_royalty_02
+					1 = male_headgear_secular_ep1_diamond_crown
+					1 = male_headgear_secular_ep1_crown_of_justinian
+					1 = male_headgear_secular_ep1_crown_of_lombardy
+				# FP2 #
+						# Christian #
+					3 = male_headgear_secular_fp2_iberian_christian_common_01
+					3 = male_headgear_secular_fp2_iberian_christian_nobility_01_low
+					3 = male_headgear_secular_fp2_iberian_christian_nobility_01_high
+					3 = male_headgear_secular_fp2_iberian_christian_high_nobility_01_low
+					3 = male_headgear_secular_fp2_iberian_christian_high_nobility_01_high
+					3 = male_headgear_secular_fp2_iberian_christian_royalty_01
+					3 = m_headgear_sec_fp2_iberian_christian_war_nob_01_lo
+					3 = m_headgear_sec_fp2_iberian_christian_war_nob_01_hi
+						# Muslim #
+					3 = male_headgear_secular_fp2_iberian_muslim_common_01_low
+					3 = male_headgear_secular_fp2_iberian_muslim_common_01_high
+					3 = male_headgear_secular_fp2_iberian_muslim_nobility_01
+					3 = male_headgear_secular_fp2_iberian_muslim_high_nobility_01
+					3 = male_headgear_secular_fp2_iberian_muslim_royalty_01
+					3 = m_headgear_sec_fp2_iberian_muslim_war_nob_01_lo
+					3 = m_headgear_sec_fp2_iberian_muslim_war_nob_01_hi
+
+				# EP2 #
+					1 = m_headgear_sec_ep2_western_era1_war_nob_01
+					1 = m_headgear_sec_ep2_western_era2_war_nob_01
+					1 = m_headgear_sec_ep2_western_era1_nob_01
+					1 = m_headgear_sec_ep2_western_era1_nob_02
+					1 = m_headgear_sec_ep2_western_era4_war_nob_01
+					1 = m_headgear_sec_ep2_western_era4_war_nob_02
+					1 = m_headgear_sec_ep2_western_era4_war_nob_02_01
+					1 = m_headgear_sec_ep2_mena_war_nob_01
+					1 = m_headgear_sec_ep2_steppe_war_nob_01
+					1 = m_headgear_sec_ep2_byzantine_war_nob_01
+					1 = m_headgear_sec_ep2_indian_war_nob_01
+					1 = m_headgear_sec_ep2_western_era1_com_01
+					1 = m_headgear_sec_ep2_western_era1_roy_01
+					1 = m_headgear_sec_ep2_western_era1_imp_01
+					# FP3 #
+					3 = m_headgear_sec_fp3_iranian_imp_01
+					3 = m_headgear_sec_fp3_iranian_roy_01
+					3 = m_headgear_sec_fp3_iranian_war_nob_01
+					3 = m_headgear_sec_fp3_iranian_nob_01
+					3 = m_headgear_sec_fp3_iranian_nob_02
+				}
+
+				female = {
+					1 = female_headgear_secular_western_nobility_01
+					1 = female_headgear_secular_western_nobility_01_2
+					1 = female_headgear_secular_western_nobility_02
+					1 = female_headgear_secular_western_nobility_03
+					1 = female_headgear_secular_dde_hre_common_02
+					1 = female_headgear_secular_dde_hre_high_nobility_01
+					1 = female_headgear_secular_western_high_nobility_01
+					1 = female_headgear_secular_western_royalty_01
+					1 = female_headgear_secular_western_royalty_02
+					1 = female_headgear_secular_western_war_nobility_01
+					1 = female_headgear_secular_mena_royalty_01
+					1 = female_headgear_secular_mena_common_01
+					1 = female_headgear_secular_mena_common_02
+					1 = female_headgear_secular_mena_nobility_01
+					1 = female_headgear_secular_dde_abbasid_common_01
+					1 = female_headgear_secular_mena_royalty_01
+					1 = female_headgear_secular_mena_war_nobility_01
+					1 = female_headgear_religious_catholic_devoted_01
+					1 = female_headgear_secular_dde_hre_royalty_01
+					1 = female_headgear_secular_dde_abbasid_high_nobility_01
+					1 = female_headgear_secular_dde_abbasid_common_02
+					1 = female_headgear_secular_dde_abbasid_war_nobility_01
+					1 = female_headgear_secular_dde_abbasid_royalty_01
+					1 = female_headgear_secular_northern_war_nobility_01
+					1 = female_headgear_secular_northern_common_01
+					1 = female_headgear_secular_byzantine_high_nobility_01
+					1 = female_headgear_secular_byzantine_nobility_01
+					5 = female_headgear_secular_byzantine_common_01
+					1 = female_headgear_secular_byzantine_imperial_01	
+					1 = female_headgear_secular_byzantine_war_nobility_01
+					1 = female_headgear_secular_byzantine_royalty_01
+					1 = fem_byz_crown_of_theodora_01
+					1 = female_headgear_secular_steppe_high_nobility_01
+					1 = female_headgear_secular_steppe_common_01
+					1 = female_headgear_secular_steppe_war_nobility_01
+					1 = female_headgear_secular_mena_nobility_01
+					1 = female_headgear_secular_sub_saharan_common_01
+					1 = female_headgear_secular_mena_royalty_01
+					1 = female_headgear_secular_indian_nobility_02
+					1 = female_headgear_secular_indian_common_01
+					1 = female_headgear_secular_indian_royalty_01
+					1 = female_headgear_secular_indian_royalty_01
+					1 = female_headgear_secular_indian_war_nobility_01
+					1 = female_headgear_secular_crusades_western_war_nobility_01
+					1 = female_headgear_secular_crusades_mena_war_nobility_01
+					1 = female_headgear_religious_muslim_high_01
+					1 = female_headgear_religious_african_high_01
+					1 = female_headgear_religious_steppe_high_01
+					1 = female_headgear_religious_northern_high_01
+					1 = female_headgear_secular_fp1_common_01
+					1 = female_headgear_secular_fp1_common_02
+					1 = female_headgear_secular_fp1_nobility_01
+					1 = female_headgear_secular_fp1_nobility_02
+					1 = female_headgear_secular_fp1_nobility_03	
+					1 = female_headgear_secular_fp1_war_nobility_01	
+					1 = female_headgear_secular_fp1_war_nobility_02	
+					1 = female_headgear_secular_fp1_royalty_01	
+					1 = female_headgear_secular_fp1_imperial_01	
+					1 = female_headgear_secular_rtt_nobility_01_low
+				# EP1 #
+					1 = female_headgear_secular_ep1_western_royalty_01
+					1 = female_headgear_secular_ep1_western_royalty_01
+					1 = female_headgear_secular_ep1_mena_royalty_01
+					1 = female_headgear_secular_ep1_indian_royalty_01
+					1 = female_headgear_secular_ep1_jester_01
+					1 = female_headgear_secular_ep1_crown_of_justinian
+					1 = female_headgear_secular_ep1_crown_of_lombardy
+					1 = female_headgear_secular_ep1_sassanid_crown
+					1 = female_headgear_secular_ep1_diamond_crown
+					1 = female_headgear_secular_ep1_sub_saharan_royalty_01
+					1 = female_headgear_secular_ep1_mena_royalty_02
+					1 = female_headgear_secular_ep1_diamond_crown
+					1 = female_headgear_secular_ep1_crown_of_justinian
+					1 = female_headgear_secular_ep1_crown_of_lombardy
+				# FP2 # 
+						# Christian #
+					3 = female_headgear_secular_fp2_iberian_christian_common_01
+					3 = female_headgear_secular_fp2_iberian_christian_nobility_01_low
+					3 = female_headgear_secular_fp2_iberian_christian_nobility_01_high
+					3 = female_headgear_secular_fp2_iberian_christian_high_nobility_01
+					3 = female_headgear_secular_fp2_iberian_christian_royalty_01
+					3 = f_headgear_sec_fp2_iberian_christian_war_nob_01_lo
+					3 = f_headgear_sec_fp2_iberian_christian_war_nob_01_hi
+						# Muslim #
+					3 = female_headgear_secular_fp2_iberian_muslim_common_01
+					3 = female_headgear_secular_fp2_iberian_muslim_nobility_01
+					3 = female_headgear_secular_fp2_iberian_muslim_high_nobility_01_low
+					3 = female_headgear_secular_fp2_iberian_muslim_high_nobility_01_high
+					3 = female_headgear_secular_fp2_iberian_muslim_royalty_01
+					3 = f_headgear_sec_fp2_iberian_muslim_war_nob_01_lo
+					3 = f_headgear_sec_fp2_iberian_muslim_war_nob_01_hi
+
+				# EP2 #
+					1 = f_headgear_sec_ep2_western_era1_com_01
+					1 = f_headgear_sec_ep2_western_era1_com_02 	
+					1 = f_headgear_sec_ep2_western_era1_nob_01
+					1 = f_headgear_sec_ep2_western_era1_nob_02
+					1 = f_headgear_sec_ep2_western_era1_nob_01_hi
+					1 = f_headgear_sec_ep2_western_era1_roy_01
+					1 = f_headgear_sec_ep2_western_era1_war_nob_01
+					1 = f_headgear_sec_ep2_western_era2_war_nob_01
+					1 = f_headgear_sec_ep2_western_era4_war_nob_01
+					1 = f_headgear_sec_ep2_western_era4_war_nob_02
+					1 = f_headgear_sec_ep2_western_era4_war_nob_02_01
+					1 = f_headgear_sec_ep2_steppe_war_nob_01
+					1 = f_headgear_sec_ep2_mena_war_nob_01
+					1 = f_headgear_sec_ep2_byzantine_war_nob_01
+					1 = f_headgear_sec_ep2_indian_war_nob_01
+					# FP3 #
+					3 = f_headgear_sec_fp3_iranian_imp_01
+					3 = f_headgear_sec_fp3_iranian_roy_01
+					3 = f_headgear_sec_fp3_iranian_war_nob_01
+					3 = f_headgear_sec_fp3_iranian_nob_01
+					3 = f_headgear_sec_fp3_iranian_nob_02
+				}
+
+				boy = male
+				girl = female
+			}
+
+			western_nobility = {
+				index = 2
+				male = {
+					# 20 = empty
+					10 = male_headgear_secular_western_common_01
+					10 = male_headgear_secular_western_common_02
+					# 0 = male_headgear_secular_western_nobility_01
+					# 0 = male_headgear_secular_western_nobility_02
+					10 = male_headgear_secular_dde_hre_common_02
+					10 = male_headgear_secular_western_nobility_03
+					10 = male_headgear_secular_western_nobility_04
+					2 = male_headgear_secular_western_pillbox_common_01
+					2 = male_headgear_secular_western_pillbox_common_02
+				}
+				female = {
+					# 30 = empty
+					10 = female_headgear_secular_western_nobility_01
+					10 = female_headgear_secular_western_nobility_01_2
+					10 = female_headgear_secular_western_nobility_02
+					10 = female_headgear_secular_western_nobility_03
+					10 = female_headgear_secular_western_nobility_05
+					10 = female_headgear_secular_western_nobility_06
+					10 = female_headgear_secular_dde_hre_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			western_high_nobility = {
+				index = 3
+				male = {
+					1 = male_headgear_secular_western_high_nobility_01
+					20 = m_epe_west_high_nobility_01
+					20 = m_epe_west_high_nobility_01
+					20 = m_epe_west_high_nobility_01
+					20 = m_epe_west_high_nobility_01
+					20 = m_epe_west_high_nobility_01
+					20 = m_epe_west_high_nobility_01
+					20 = male_headgear_secular_western_cfp_high_nobility_01
+					20 = male_headgear_secular_western_high_nobility_04
+					20 = male_headgear_secular_slavic_high_nobility_01
+					0 = male_headgear_secular_western_pillbox_low_01
+				}
+				female = {
+					1 = female_headgear_secular_western_high_nobility_01
+					20 = f_epe_west_high_nobility_01
+					20 = f_epe_west_high_nobility_02
+					20 = f_epe_west_high_nobility_02
+					20 = f_epe_west_high_nobility_03
+					20 = f_epe_west_high_nobility_03a
+					20 = f_epe_west_high_nobility_05
+					20 = f_epe_west_high_nobility_05a
+					20 = f_epe_west_high_nobility_04
+					10 = female_headgear_secular_western_nobility_03
+					20 = female_headgear_secular_western_cfp_high_nobility_01
+					20 = female_headgear_secular_western_high_nobility_04
+					20 = female_headgear_secular_slavic_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			western_royalty = {
+				index = 4
+				male = {
+					1 = male_headgear_secular_western_royalty_01
+					1 = male_headgear_secular_western_royalty_02
+					1 = male_headgear_secular_western_cfp_royalty_03
+					1 = male_headgear_secular_western_cfp_royalty_01
+					1 = male_headgear_secular_western_cfp_royalty_02
+					1 = male_headgear_secular_western_cfp_royalty_04
+					1 = male_headgear_secular_western_cfp_royalty_05
+					1 = male_headgear_secular_western_cfp_royalty_06
+					1 = male_headgear_secular_western_cfp_royalty_07
+					#EPE
+					1 = male_western_royal_crown_04
+					1 = male_frankish_royal_crown_01_b
+				}
+				female = {
+					1 = female_headgear_secular_western_royalty_01
+					1 = female_headgear_secular_western_royalty_02
+					1 = female_headgear_secular_western_cfp_royalty_03
+					1 = female_headgear_secular_western_cfp_royalty_01
+					1 = female_headgear_secular_western_cfp_royalty_02
+					1 = female_headgear_secular_western_cfp_royalty_04
+					1 = female_headgear_secular_western_cfp_royalty_05
+					1 = female_headgear_secular_western_cfp_royalty_06
+					1 = female_headgear_secular_western_cfp_royalty_07
+					#EPE
+					1 = female_western_royal_crown_04
+					1 = female_frankish_royal_crown_01_b
+				}
+				boy = male
+				girl = female
+			}
+
+			western_common = {
+				index = 5
+				male = {
+					5 = male_headgear_secular_western_common_01
+					5 = male_headgear_secular_western_common_02
+					1 = male_headgear_secular_western_pillbox_common_01
+					1 = male_headgear_secular_western_pillbox_common_02
+					2 = male_headgear_secular_western_headband_common_01
+				}
+				female = {
+					35 = empty
+					5 = female_headgear_secular_western_nobility_01
+					5 = female_headgear_secular_western_nobility_01_2
+					5 = female_headgear_secular_western_nobility_02
+					5 = female_headgear_secular_western_nobility_03
+					5 = female_headgear_secular_western_headband_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			western_imperial = {
+				index = 6
+				male = {
+					#EPE
+					1 = m_epe_west_imperial_01
+					# 1 = male_headgear_secular_dde_hre_imperial_01
+				}
+				female = {
+					#EPE
+					1 = f_epe_west_imperial_01	
+					# 1 = female_headgear_secular_western_royalty_01
+					# 1 = female_headgear_secular_western_royalty_02		
+				}
+				boy = male
+				girl = female
+			}
+
+			western_war = {
+				index = 7
+				male = {
+					5 = m_headgear_sec_western_war_nob_01
+					4 = male_headgear_secular_western_war_mail_coif_01
+					4 = male_headgear_secular_western_war_mail_coif_02
+					4 = male_headgear_secular_western_war_mail_coif_03
+					5 = male_headgear_secular_western_war_padded_hood_01
+					5 = male_headgear_secular_northern_war_nasal_02
+					5 = male_headgear_secular_western_war_frankish_01
+					
+				}
+				female = {
+					5 = f_headgear_sec_western_war_nob_01
+					4 = female_headgear_secular_western_war_mail_coif_01
+					4 = female_headgear_secular_western_war_mail_coif_02
+					4 = female_headgear_secular_western_war_mail_coif_03
+					5 = female_headgear_secular_western_war_padded_hood_01
+					5 = female_headgear_secular_northern_war_nasal_02
+					5 = female_headgear_secular_western_war_frankish_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			western_stealth = {
+				index = 8
+				male = {
+					1 = male_clothes_situational_western_stealth_hood_01	
+
+				}
+				female = {
+					1 = female_clothes_situational_western_stealth_hood_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			mena_royalty = {
+				index = 9
+				male = {
+					1 = male_headgear_secular_mena_royalty_01
+				}
+				female = {
+					1 = female_headgear_secular_mena_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			mena_low_nobility = {
+				index = 10
+				male = {
+					# 5 = empty
+					10 = male_headgear_secular_mena_common_01
+					10 = male_headgear_secular_mena_nobility_01
+			
+				}
+				female = {
+					# 15 = empty
+					5 = female_headgear_secular_mena_common_01
+					5 = female_headgear_secular_mena_common_02
+					5 = female_headgear_secular_mena_nobility_01
+				}
+				boy = male
+				girl = female
+			}	
+
+			mena_high_nobility = {
+				index = 11
+				male = {
+					0 = empty
+					5 = male_headgear_secular_mena_high_nobility_01
+					5 = male_headgear_religious_dde_muslim_head_01
+			
+				}
+				female = {
+					0 = empty
+					5 = female_headgear_secular_mena_nobility_01
+				}
+				boy = male
+				girl = female
+			}	
+
+			mena_common = {
+				index = 12
+				male = {
+					5 = empty
+					10 = male_headgear_secular_mena_common_01
+					10 = male_headgear_secular_dde_abbasid_common_02
+					5 = male_headgear_secular_mena_cfp_bonnet_low_01
+					5 = male_headgear_secular_mena_cfp_tagelmust_01
+					5 = male_headgear_secular_mena_cfp_tagelmust_02
+				}
+				female = {
+					10 = empty
+					5 = female_headgear_secular_mena_common_01
+					5 = female_headgear_secular_mena_common_02
+					5 = female_headgear_secular_dde_abbasid_common_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			mena_imperial = {
+				index = 13
+				male = {
+					1 = male_headgear_secular_mena_imperial_01
+					
+				}
+				female = {
+					1 = female_headgear_secular_mena_royalty_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			mena_war = {
+				index = 14
+				male = {
+					1 = m_headgear_sec_mena_war_nob_01_lo
+					1 = m_headgear_sec_crusades_mena_war_nob_01_lo
+					1 = m_headgear_sec_mena_war_nob_01_hi
+					1 = m_headgear_sec_crusades_mena_war_nob_01_hi
+					
+				}
+				female = {
+					1 = f_headgear_sec_mena_war_nob_01_lo
+					1 = f_headgear_sec_crusades_mena_war_nob_01_lo
+					1 = f_headgear_sec_mena_war_nob_01_hi
+					1 = f_headgear_sec_crusades_mena_war_nob_01_hi
+				}
+				boy = male
+				girl = female
+			}
+
+			mena_royalty = {
+				index = 15
+				male = {
+					1 = male_headgear_secular_mena_royalty_01
+					
+				}
+				female = {
+					1 = female_headgear_secular_mena_royalty_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			mena_stealth = {
+				index = 16
+				male = {
+					1 = male_clothes_situational_mena_stealth_hood_01
+					
+				}
+				female = {
+					1 = female_clothes_situational_mena_stealth_hood_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			monarchs_journey_low = {
+				index = 17
+				male = {
+					1 = male_headgear_secular_rtt_nobility_01_low
+					#1 = male_headgear_secular_rtt_jester_01_low
+				}
+				female = {
+					1 = female_headgear_secular_rtt_nobility_01_low
+					#1 = female_headgear_secular_ep1_jester_01
+				}
+				boy = male
+				girl = female
+			}
+
+			monarchs_journey_high = {
+				index = 18
+				male = {
+					1 = male_headgear_secular_rtt_nobility_01_high
+					#1 = male_headgear_secular_rtt_jester_01_low
+				}
+				female = {
+					1 = female_headgear_secular_rtt_nobility_01_low
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_high = { # Duplicate weights to make seed different from religious_catholic_high_clothes clothes gene
+				index = 19
+				male = {
+					2 = male_headgear_religious_catholic_high_01
+					1 = male_headgear_religious_dde_catholic_high_01
+					1 = male_headgear_religious_dde_catholic_high_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_devoted_01
+				}
+				boy = male
+				girl = female
+			}
+
+			catholic_head = {
+				index = 20
+				male = {
+					1 = male_headgear_religious_catholic_head_01
+				}
+				female = {
+					1 = female_headgear_religious_catholic_devoted_01
+				}
+				boy = male
+				girl = female
+			}
+
+			dde_hre_high_nobility = {
+				index = 21
+				male = {
+					# 1 = male_headgear_secular_dde_hre_high_nobility_01
+					1 = male_headgear_secular_dde_hre_high_nobility_02
+				}
+				female = {
+					1 = female_headgear_secular_dde_hre_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			dde_hre_nobility = {
+				index = 22
+				male = {
+					10 = male_headgear_secular_dde_hre_common_02
+				}
+				female = {
+					10 = female_headgear_secular_dde_hre_common_02
+				}
+				boy = male
+				girl = female
+			}	
+
+			dde_hre_common = {
+				index = 23
+				male = {
+					1 = male_headgear_secular_dde_hre_common_01
+					# 1 = male_headgear_secular_dde_hre_common_02
+				}
+				female = {
+					1 = female_headgear_secular_dde_hre_common_01
+					# 1 = female_headgear_secular_dde_hre_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			dde_hre_imperial = {
+				index = 24
+				male = {
+					6 = male_headgear_secular_western_imperial_01
+					1 = male_headgear_secular_western_cfp_imperial_01
+					
+				}
+				female = {
+					3 = female_headgear_secular_dde_hre_royalty_01
+					3 = female_headgear_secular_western_imperial_01
+					1 = female_headgear_secular_western_cfp_imperial_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			dde_hre_war = {
+				index = 25
+				male = {
+					1 = m_headgear_sec_dde_hre_war_nob_01_lo
+					1 = m_headgear_sec_dde_hre_war_nob_01_hi
+					1 = m_headgear_sec_dde_hre_war_nob_01_roy
+					
+				}
+				female = {
+					1 = f_headgear_sec_dde_hre_war_nob_01_lo
+					1 = f_headgear_sec_dde_hre_war_nob_01_hi
+					1 = f_headgear_sec_dde_hre_war_nob_01_roy
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			dde_hre_royalty = {
+				index = 26
+				male = {
+					# 1 = male_headgear_secular_dde_hre_royalty_01
+					1 = male_headgear_secular_dde_hre_royalty_02
+					
+				}
+				female = {
+					1 = female_headgear_secular_dde_hre_royalty_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			dde_abbasid_high_nobility = {
+				index = 27
+				male = {
+					1 = male_headgear_secular_dde_abbasid_high_nobility_01
+					# 1 = male_headgear_secular_dde_abbasid_common_01_high
+				}
+				female = {
+					1 = female_headgear_secular_mena_nobility_01
+					1 = female_headgear_secular_dde_abbasid_high_nobility_01
+					# 1 = female_headgear_secular_dde_abbasid_high_nobility_02
+				}
+				boy = male
+				girl = female
+			}	
+
+			dde_abbasid_common = {
+				index = 28
+				male = {
+					1 = male_headgear_secular_dde_abbasid_common_01
+					# 1 = male_headgear_secular_dde_abbasid_common_02
+				}
+				female = {
+					# 1 = female_headgear_secular_dde_abbasid_common_01
+					1 = female_headgear_secular_dde_abbasid_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			dde_abbasid_imperial = {
+				index = 29
+				male = {
+					1 = male_headgear_secular_dde_abbasid_imperial_01
+					
+				}
+				female = {
+					1 = female_headgear_secular_dde_abbasid_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			dde_abbasid_war = {
+				index = 30
+				male = {
+					1 = m_headgear_sec_dde_abbasid_war_nob_01_lo
+					1 = m_headgear_sec_dde_abbasid_war_nob_01_hi
+					
+				}
+				female = {
+					1 = f_headgear_sec_dde_abbasid_war_nob_01_lo
+					1 = f_headgear_sec_dde_abbasid_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			dde_abbasid_royalty = {
+				index = 31
+				male = {
+					1 = male_headgear_secular_dde_abbasid_royalty_01
+
+					
+				}
+				female = {
+					1 = female_headgear_secular_dde_abbasid_royalty_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+
+			northern_war = {
+				index = 32
+				male = {
+					5 = m_headgear_sec_northern_war_nob_01_lo
+					5 = m_headgear_sec_northern_war_nob_01_hi
+					5 = male_headgear_secular_northern_war_nasal_01
+					5 = male_headgear_secular_northern_war_nasal_02
+					5 = male_headgear_secular_northern_war_nasal_03
+					10 = male_headgear_secular_western_war_mail_coif_01
+					10 = male_headgear_secular_western_war_mail_coif_02
+					10 = male_headgear_secular_western_war_padded_hood_01
+					10 = male_headgear_secular_northern_cfp_war_coppergate_01
+				
+					}
+				female = {
+					5 = f_headgear_sec_northern_war_nob_01_lo
+					5 = f_headgear_sec_northern_war_nob_01_hi
+					5 = female_headgear_secular_northern_war_nasal_01
+					5 = female_headgear_secular_northern_war_nasal_02
+					5 = female_headgear_secular_northern_war_nasal_03
+					10 = female_headgear_secular_western_war_mail_coif_01
+					10 = female_headgear_secular_western_war_mail_coif_02
+					10 = female_headgear_secular_western_war_padded_hood_01
+					10 = female_headgear_secular_northern_cfp_war_coppergate_01
+					
+				}
+				boy = male
+				girl = female
+			}
+			
+			northern_common = {
+				index = 33
+				male = {
+					1 = empty
+					4 = male_headgear_secular_northern_common_01
+					1 = male_headgear_secular_western_headband_common_01
+					
+				}
+				female = {
+					10 = empty
+					2 = female_headgear_secular_northern_common_01
+					1 = female_headgear_secular_western_headband_common_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			northern_high_nobility = {
+				index = 34
+				male = {
+					1 = male_headgear_religious_northern_high_01
+					1 = male_headgear_secular_northern_cfp_high_nobility_01
+				}
+				female = {
+					1 = female_headgear_religious_northern_high_01
+					1 = female_headgear_secular_northern_cfp_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			northern_royalty = {
+				index = 35
+				male = {
+					1 = male_headgear_secular_western_royalty_01
+					1 = male_headgear_secular_western_royalty_02
+				}
+				female = {
+					1 = female_headgear_secular_western_royalty_01
+					1 = female_headgear_secular_western_royalty_02
+				}
+				boy = male
+				girl = female
+			}
+
+			byzantine_high_nobility = {
+				index = 36
+				male = {
+					5 = male_headgear_secular_byzantine_high_nobility_01
+					5 = male_headgear_secular_byzantine_pannonian_high_01
+					5 = male_headgear_secular_byzantine_skiadion_01
+					#EPE
+					5 = male_epe_byz_pannonian_hat_01_high	
+					5 = male_epe_byz_pannonian_hat_03_high			
+					5 = male_epe_byz_pannonian_hat_04_high
+					
+				}
+				female = {
+					6 = female_headgear_secular_byzantine_high_nobility_01
+					1 = female_headgear_secular_byzantine_propoloma_high_01
+					1 = female_headgear_secular_byzantine_propoloma_high_02
+					2 = female_headgear_secular_byzantine_propoloma_high_03
+					2 = female_headgear_secular_byzantine_propoloma_high_04
+					#EPE
+					5 = female_headgear_secular_byzantine_high_nobility_01
+					3 = female_epe_byzantine_high_nobility_01
+					4 = female_byz_noble_hat_01	
+					4 = female_byz_noble_hat_02			
+					3 = female_byz_noble_hat_03	
+					3 = female_byz_noble_hat_02_white			
+					4 = female_byz_noble_hat_03_white	
+				}
+				boy = male
+				girl = female
+			}	
+
+			 byzantine_nobility = {
+				index = 37
+				male = {
+					#5 = empty
+					5 = male_headgear_secular_byzantine_nobility_01
+					5 = male_headgear_secular_byzantine_pannonian_low_01
+					5 = male_headgear_secular_byzantine_skiadion_01
+					#EPE
+					2 = male_epe_byz_ceremonial_hat_01_white	
+					2 = male_epe_byz_ceremonial_hat_02_white
+					5 = male_epe_byz_pannonian_hat_01_low	
+					5 = male_epe_byz_pannonian_hat_02_low	
+					5 = male_epe_byz_pannonian_hat_03_low	
+					5 = male_epe_byz_pannonian_hat_04_low
+					
+					5 = male_epe_byz_ceremonial_hat_01_low		
+					5 = male_epe_byz_ceremonial_hat_02_low
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_byzantine_nobility_01
+					2 = female_headgear_secular_byzantine_propoloma_low_01
+					3 = female_headgear_secular_byzantine_propoloma_low_02
+				}
+				boy = male
+				girl = female
+			}	
+
+			byzantine_common = {
+				index = 38
+				male = {
+					10 = empty
+					5 = male_headgear_secular_byzantine_common_01
+					5 = male_headgear_secular_byzantine_pannonian_common_01
+					#EPE
+					5 = male_epe_byz_pannonian_hat_01_common
+					5 = male_epe_byz_pannonian_hat_02_common
+					5 = male_epe_byz_pannonian_hat_03_common
+					5 = male_epe_byz_pannonian_hat_04_common
+				}
+				female = {
+					10 = empty
+					5 = female_headgear_secular_byzantine_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			byzantine_imperial = {
+				index = 39
+				male = {
+					#1 = male_headgear_secular_byzantine_imperial_01
+					1 = male_headgear_secular_byzantine_imperial_02
+					1 = male_headgear_secular_byzantine_monomachus_01
+					#EPE
+					1 = male_byz_imp_stemma_01
+					1 = male_byz_imp_stemma_02
+					1 = male_byz_imp_stemma_03
+					1 = male_byz_imp_stemma_04
+					1 = male_byz_crown_of_basil_II_01
+				}
+				female = {
+					#1 = female_headgear_secular_byzantine_imperial_01
+					1 = female_headgear_secular_byzantine_imperial_02
+					1 = female_headgear_secular_byzantine_monomachus_01
+					#EPE
+					1 = fem_byz_imperial_stemma_01
+					1 = fem_byz_imperial_stemma_01
+					1 = fem_byz_imperial_stemma_02
+					1 = fem_byz_imperial_stemma_02_veil
+					# 1 = fem_byz_crown_of_theodora_01
+				}
+				boy = male
+				girl = female
+			}
+
+			byzantine_war = {
+				index = 40
+				male = {
+					10 = m_headgear_sec_byzantine_war_nob_01_lo
+					10 = m_headgear_sec_byzantine_war_nob_01_hi
+					10 = m_headgear_sec_byzantine_war_nob_01_roy
+					10 = male_headgear_secular_byzantine_war_kettle_hat_01 # CFP kettle hat
+					10 = male_headgear_secular_byzantine_war_nasal_01 # CFP Varangian
+					# <era2
+					10 = male_headgear_secular_byzantine_war_roman_01 #CFP Roman helmet
+					10 = male_headgear_secular_byzantine_war_roman_02 #CFP Roman helmet
+					
+				}
+				female = {
+					10 = f_headgear_sec_byzantine_war_nob_01_lo
+					10 = f_headgear_sec_byzantine_war_nob_01_hi
+					10 = f_headgear_sec_byzantine_war_nob_01_roy
+					10 = female_headgear_secular_byzantine_war_kettle_hat_01 # CFP kettle hat
+					10 = female_headgear_secular_byzantine_war_nasal_01 # CFP Varangian
+					# <era2
+					10 = female_headgear_secular_byzantine_war_roman_01 #CFP Roman helmet
+					10 = female_headgear_secular_byzantine_war_roman_02 #CFP Roman helmet
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			byzantine_royalty = {
+				index = 41
+				male = {
+					#5 = male_headgear_secular_byzantine_royalty_01
+					1 = male_headgear_secular_hungarian_royalty_01
+					#EPE
+					2 = male_byz_royal_crown_01
+					2 = male_byz_royal_crown_02
+					2 = male_byz_royal_crown_03
+				}
+				female = {
+					#5 = female_headgear_secular_byzantine_royalty_01
+					1 = female_headgear_secular_hungarian_royalty_01
+					#EPE
+					2 = female_byz_royal_crown_01
+					1 = female_byz_royal_crown_01
+					1 = female_byz_royal_crown_02
+					1 = female_byz_royal_crown_02
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			steppe_high_nobility = {
+				index = 42
+				male = {
+					5 = male_headgear_secular_steppe_nobility_01
+					
+				}
+				female = {
+					5 = female_headgear_secular_steppe_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}	
+
+			steppe_nobility = {
+				index = 43
+				male = {
+					5 = empty
+					5 = male_headgear_secular_steppe_common_01
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_steppe_common_01
+				}
+				boy = male
+				girl = female
+			}	
+
+			steppe_common = {
+				index = 44
+				male = {
+					5 = empty
+					5 = male_headgear_secular_steppe_common_01
+			
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_steppe_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			steppe_royalty = {
+				index = 45
+				male = {
+					5 = male_headgear_secular_steppe_royalty_01
+					
+				}
+				female = {
+					5 = female_headgear_secular_steppe_high_nobility_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			steppe_war = {
+				index = 46
+				male = {
+					10 = m_headgear_sec_steppe_war_nob_01_lo
+					10 = m_headgear_sec_steppe_war_nob_01_hi
+					1 = male_headgear_secular_western_war_mail_coif_01
+					
+				}
+				female = {
+					10 = f_headgear_sec_steppe_war_nob_01_lo
+					10 = f_headgear_sec_steppe_war_nob_01_hi
+					1 = female_headgear_secular_western_war_mail_coif_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			sub_saharan_high_nobility = {
+				index = 47
+				male = {
+					1 = male_headgear_secular_sub_saharan_high_nobility_01
+				}
+				female = {
+					1 = female_headgear_secular_mena_nobility_01
+				}
+				boy = male
+				girl = female
+			}	
+
+			sub_saharan_common = {
+				index = 48
+				male = {
+					5 = empty
+					5 = male_headgear_secular_sub_saharan_common_01
+			
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_sub_saharan_common_01
+
+
+				}
+				boy = male
+				girl = female
+			}
+
+			sub_saharan_royalty = {
+				index = 49
+				male = {
+					3 = male_headgear_secular_sub_saharan_royalty_01
+					2 = male_headgear_secular_sub_saharan_royalty_02
+					
+				}
+				female = {
+					1 = female_headgear_secular_mena_royalty_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			sub_saharan_imperial = {
+				index = 50
+				male = {
+					3 = male_headgear_secular_sub_saharan_imperial_01
+					2 = male_headgear_secular_sub_saharan_imperial_02
+					
+				}
+				female = {
+					3 = female_headgear_secular_mena_royalty_01
+					2 = female_headgear_secular_sub_saharan_imperial_02
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			indian_high_nobility = {
+				index = 51
+				male = {
+					5 = male_headgear_secular_indian_high_nobility_01
+				}
+				female = {
+					5 = female_headgear_secular_indian_nobility_02
+
+				}
+				boy = male
+				girl = female
+			}
+
+			indian_nobility = {
+				index = 52
+				male = {
+					5 = empty
+					5 = male_headgear_secular_mena_common_01
+				}
+				female = {
+					10 = empty
+					5 = female_headgear_secular_indian_common_01
+					5 = female_headgear_secular_indian_nobility_02
+				}
+				boy = male
+				girl = female
+			}
+
+			indian_common = {
+				index = 53
+				male = {
+					5 = empty
+					5 = male_headgear_secular_mena_common_01
+			
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_indian_common_01
+
+
+				}
+				boy = male
+				girl = female
+			}
+
+			indian_royalty = {
+				index = 54
+				male = {
+					5 = male_headgear_secular_indian_royalty_01
+					5 = male_headgear_secular_indian_cfp_royalty_01
+					
+				}
+				female = {
+					5 = female_headgear_secular_indian_royalty_01
+					5 = female_headgear_secular_indian_cfp_royalty_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			indian_imperial = {
+				index = 55
+				male = {
+					1 = male_headgear_secular_indian_imperial_01
+					1 = male_headgear_secular_indian_imperial_02
+					5 = male_headgear_secular_indian_cfp_imperial_01
+					5 = male_headgear_religious_hindu_cfp_devoted_01
+					
+				}
+				female = {
+					2 = female_headgear_secular_indian_royalty_01
+					5 = female_headgear_secular_indian_cfp_imperial_01
+					5 = female_headgear_religious_hindu_cfp_devoted_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			indian_war = {
+				index = 56
+				male = {
+					5 = m_headgear_sec_indian_war_nob_01_lo
+					5 = m_headgear_sec_indian_war_nob_01_hi
+					5 = m_headgear_sec_indian_war_nob_01_roy
+					
+				}
+				female = {
+					5 = f_headgear_sec_indian_war_nob_01_lo
+					5 = f_headgear_sec_indian_war_nob_01_hi
+					5 = f_headgear_sec_indian_war_nob_01_roy
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			crusades_western_war = {
+				index = 57
+				male = {
+					1 = m_headgear_sec_crusades_western_war_nob_01_lo
+					1 = m_headgear_sec_crusades_western_war_nob_01_hi
+					
+				}
+				female = {
+					1 = f_headgear_sec_crusades_western_war_nob_01_lo
+					1 = f_headgear_sec_crusades_western_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			crusades_mena_war = {
+				index = 58
+				male = {
+					1 = m_headgear_sec_crusades_mena_war_nob_01_lo
+					1 = m_headgear_sec_crusades_mena_war_nob_01_hi
+					
+				}
+				female = {
+					1 = f_headgear_sec_crusades_mena_war_nob_01_lo
+					1 = f_headgear_sec_crusades_mena_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_catholic_devoted = {
+				index = 59
+				male = {
+					1 = empty
+					
+				}
+				female = {
+					1 = female_headgear_religious_catholic_devoted_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_orthodox_high = {
+				index = 60
+				male = {
+					1 = male_headgear_religious_orthodox_high_01
+					
+				}
+				female = {
+					1 = female_headgear_religious_catholic_devoted_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_orthodox_head = {
+				index = 61
+				male = {
+					1 = male_headgear_religious_orthodox_head_01
+					
+				}
+				female = {
+					1 = female_headgear_religious_catholic_devoted_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_zoroastrian_high = {
+				index = 62
+				male = {
+					1 = male_headgear_religious_zorastrian_high_01
+					
+				}
+				female = {
+					# 1 = female_headgear_religious_zoroastrian_high_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_jewish_high = {
+				index = 63
+				male = {
+					1 = male_headgear_religious_zorastrian_high_01
+					
+				}
+				female = {
+				#	1 = female_headgear_religious_jewish_high_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_jewish_head = {
+				index = 64
+				male = {
+					1 = male_headgear_religious_jewish_head_01
+					
+				}
+				female = {
+				#	1 = female_headgear_religious_jewish_head_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_muslim_high = {
+				index = 65
+				male = {
+					1 = male_headgear_religious_muslim_high_01
+					
+				}
+				female = {
+					1 = female_headgear_religious_muslim_high_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_muslim_head = {
+				index = 66
+				male = {
+					1 = male_headgear_religious_dde_muslim_head_01
+					
+				}
+				female = {
+					1 = female_headgear_religious_muslim_high_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_african_high = {
+				index = 67
+				male = {
+					1 = male_headgear_religious_african_high_01
+					
+				}
+				female = {
+					1 = female_headgear_religious_african_high_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_steppe_high = {
+				index = 68
+				male = {
+					1 = male_headgear_religious_steppe_high_01
+					
+				}
+				female = {
+					1 = female_headgear_religious_steppe_high_01
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			religious_northern_high = {
+				index = 69
+				male = {
+					1 = male_headgear_religious_northern_high_01
+					
+				}
+				female = {
+					1 = female_headgear_religious_northern_high_01
+					
+				}
+				boy = male
+				girl = female
+			}		
+
+			## FP1 - Fury of the Northmen ##
+
+			fp1_common = {
+				index = 70
+				male = {
+					1 = male_headgear_secular_fp1_common_01
+					1 = male_headgear_secular_fp1_common_02
+					
+				}
+				female = {
+					1 = female_headgear_secular_fp1_common_01
+					1 = female_headgear_secular_fp1_common_02
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			fp1_low_nobility = {
+				index = 71
+				male = {
+					2 = male_headgear_secular_fp1_nobility_01
+					1 = male_headgear_secular_fp1_common_01
+					1 = male_headgear_secular_fp1_common_02
+					
+				}
+				female = {
+					1 = female_headgear_secular_fp1_common_01
+					1 = female_headgear_secular_fp1_common_02
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			fp1_nobility = {
+				index = 72
+				male = {
+					3 = male_headgear_religious_northern_high_01
+					#CFP
+					1 = male_headgear_secular_fp1_cfp_nobility_01
+					1 = male_headgear_secular_northern_cfp_high_nobility_01
+
+				}
+				female = {
+					1 = female_headgear_secular_fp1_nobility_01
+					1 = female_headgear_secular_fp1_nobility_02
+					1 = female_headgear_secular_fp1_nobility_03		
+					#CFP
+					1 = female_headgear_secular_northern_cfp_high_nobility_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			fp1_war = {
+				index = 73
+				male = {
+					10 = male_headgear_secular_fp1_war_nobility_01
+					10 = male_headgear_secular_fp1_war_nobility_02
+					10 = male_headgear_secular_northern_war_viking_02
+					10 = male_headgear_secular_northern_war_viking_04
+
+				}
+				female = {
+					10 = female_headgear_secular_fp1_war_nobility_01	
+					10 = female_headgear_secular_fp1_war_nobility_02
+					10 = female_headgear_secular_northern_war_viking_02
+					10 = female_headgear_secular_northern_war_viking_04
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			fp1_war_common = { # For commoners to use, non-gilded version only
+				index = 74
+				male = {
+					10 = male_headgear_secular_fp1_war_nobility_02
+					10 = male_headgear_secular_northern_war_viking_01
+					10 = male_headgear_secular_northern_war_viking_03
+					7 = male_headgear_secular_northern_war_nasal_02
+					5 = male_headgear_secular_western_war_mail_coif_01
+					5 = male_headgear_secular_western_war_padded_hood_01
+
+				}
+				female = {
+					10 = female_headgear_secular_fp1_war_nobility_02
+					10 = female_headgear_secular_northern_war_viking_01
+					10 = female_headgear_secular_northern_war_viking_03
+					7 = female_headgear_secular_northern_war_nasal_02
+					5 = female_headgear_secular_western_war_mail_coif_01
+					5 = female_headgear_secular_western_war_padded_hood_01
+
+				}
+				boy = male
+				girl = female
+			}
+
+			fp1_royalty = {
+				index = 75
+				male = {
+					1 = male_headgear_secular_fp1_royalty_01
+
+				}
+				female = {
+					1 = female_headgear_secular_fp1_royalty_01		
+							
+				}
+				boy = male
+				girl = female
+			}
+
+			fp1_imperial = {
+				index = 76
+				male = {
+					1 = male_headgear_secular_fp1_imperial_01
+
+				}
+				female = {
+					1 = female_headgear_secular_fp1_imperial_01		
+							
+				}
+				boy = male
+				girl = female
+			}
+
+			monarchs_journey_unleashed = {
+				index = 77
+				male = {
+					1 = male_headgear_secular_rtt_nobility_01_low
+				}
+				female = {
+					1 = female_headgear_secular_rtt_nobility_01_low
+				}
+				boy = male
+				girl = female
+			}
+		
+			## EP1 - ROCCO ##
+		
+			ep1_western_royalty = {
+				index = 78
+				male = {
+					0 = male_headgear_secular_ep1_western_royalty_01 # CFP : we get rid of vanilla model
+					1 = male_headgear_secular_western_cfp_imperial_01
+					#EPE
+					# 1 = male_frankish_royal_crown_01_b
+				}
+				female = {
+					0 = female_headgear_secular_ep1_western_royalty_01 # CFP : we get rid of vanilla model
+					1 = female_headgear_secular_western_cfp_imperial_01
+					#EPE
+					# 1 = female_frankish_royal_crown_01_b
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_steppe_royalty = {
+				index = 79
+				male = {
+					1 = male_headgear_secular_ep1_mena_royalty_01
+				}
+				female = {
+					1 = female_headgear_secular_ep1_mena_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_indian_royalty = {
+				index = 80
+				male = {
+					1 = male_headgear_secular_ep1_indian_royalty_01
+				}
+				female = {
+					1 = female_headgear_secular_ep1_indian_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_jester = {
+				index = 81
+				male = {
+					50 = male_headgear_secular_ep1_jester_01
+				}
+				female = {
+					50 = female_headgear_secular_ep1_jester_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_crown_of_justinian = {
+				index = 82
+				male = {
+					50 = male_headgear_secular_ep1_crown_of_justinian
+				}
+				female = {
+					50 = female_headgear_secular_ep1_crown_of_justinian
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_crown_of_lombardy = {
+				index = 83
+				male = {
+					0 = male_headgear_secular_ep1_crown_of_lombardy # CFP : we get rid of vanilla model
+					50 = male_headgear_secular_latin_cfp_icol_01
+				}
+				female = {
+					0 = female_headgear_secular_ep1_crown_of_lombardy # CFP : we get rid of vanilla model
+					50 = female_headgear_secular_latin_cfp_icol_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_sassanid_crown = {
+				index = 84
+				male = {
+					50 = male_headgear_secular_ep1_sassanid_crown
+				}
+				female = {
+					50 = female_headgear_secular_ep1_sassanid_crown
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_diamond_crown = {
+				index = 85
+				male = {
+					50 = male_headgear_secular_ep1_diamond_crown
+				}
+				female = {
+					50 = female_headgear_secular_ep1_diamond_crown
+				}
+				boy = male
+				girl = female
+			}
+			
+			ep1_sub_saharan_royalty = {
+				index = 86
+				male = {
+					1 = male_headgear_secular_ep1_sub_saharan_royalty_01
+				}
+				female = {
+					1 = female_headgear_secular_ep1_sub_saharan_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_mena_royalty = {
+				index = 87
+				male = {
+					1 = male_headgear_secular_ep1_mena_royalty_02
+					#EPE
+					1 = male_headgear_epe_white_ep1_mena_royalty_02					
+				}
+				female = {
+					1 = female_headgear_secular_ep1_mena_royalty_02
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_indian_imperial = {
+				index = 88
+				male = {
+					1 = male_headgear_secular_ep1_diamond_crown
+				}
+				female = {
+					1 = female_headgear_secular_ep1_diamond_crown
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_byzantine_imperial = {
+				index = 89
+				male = {
+					1 = male_headgear_secular_ep1_crown_of_justinian
+					# CFP: add byzantine_imperial options or the EP1 crown is displayed 50% of the time
+					1 = male_headgear_secular_byzantine_imperial_01
+					1 = male_headgear_secular_byzantine_imperial_02
+					1 = male_headgear_secular_byzantine_monomachus_01
+				}
+				female = {
+					1 = female_headgear_secular_ep1_crown_of_justinian
+					# CFP: add byzantine_imperial options or the EP1 crown is displayed 50% of the time
+					1 = female_headgear_secular_byzantine_imperial_01
+					1 = female_headgear_secular_byzantine_imperial_02
+					1 = female_headgear_secular_byzantine_monomachus_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_italian_royalty = {
+				index = 90
+				male = {
+					0 = male_headgear_secular_ep1_crown_of_lombardy # CFP : we get rid of vanilla model
+					1 = male_headgear_secular_latin_cfp_icol_01
+				}
+				female = {
+					0 = female_headgear_secular_ep1_crown_of_lombardy # CFP : we get rid of vanilla model
+					1 = female_headgear_secular_latin_cfp_icol_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep1_persian_imperial = {
+				index = 91
+				male = {
+					1 = male_headgear_secular_ep1_sassanid_crown
+				}
+				female = {
+					1 = female_headgear_secular_ep1_sassanid_crown
+				}
+				boy = male
+				girl = female
+			}
+
+				## FP2 - Fate of Iberia ##
+		
+			fp2_christian_common = {
+				index = 92
+				male = {
+					1 = empty
+					1 = male_headgear_secular_fp2_iberian_christian_common_01
+					1 = male_headgear_secular_iberian_cfp_bonnet_common_01
+				}
+				female = {
+					2 = empty
+					1 = female_headgear_secular_fp2_iberian_christian_common_01
+					1 = female_headgear_secular_iberian_cfp_bonnet_common_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			fp2_christian_low_nobility = {
+				index = 93
+				male = {
+					1 = male_headgear_secular_fp2_iberian_christian_nobility_01_low
+					1 = male_headgear_secular_fp2_iberian_christian_high_nobility_01_low
+					#CFP
+					1 = male_headgear_secular_iberian_cfp_bonnet_low_01
+				}
+				female = {
+					1 = female_headgear_secular_fp2_iberian_christian_nobility_01_low
+					1 = female_headgear_secular_fp2_iberian_christian_high_nobility_01
+					#CFP
+					1 = female_headgear_secular_iberian_cfp_bonnet_low_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			fp2_christian_high_nobility = {
+				index = 94
+				male = {
+					
+					1 = male_headgear_secular_fp2_iberian_christian_nobility_01_high
+					1 = male_headgear_secular_fp2_iberian_christian_high_nobility_01_high
+					1 = male_headgear_secular_iberian_cfp_bonnet_high_01
+				}
+				female = {
+					1 = female_headgear_secular_fp2_iberian_christian_high_nobility_01
+					1 = female_headgear_secular_fp2_iberian_christian_nobility_01_high
+					1 = female_headgear_secular_iberian_cfp_bonnet_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+			fp2_christian_royalty = {
+				index = 95
+				male = {
+					0 = male_headgear_secular_fp2_iberian_christian_royalty_01
+					# CFP : we replace sancho crown by Don's Crown
+					1 = male_headgear_secular_fp2_iberian_christian_cfp_royalty_01
+				}
+				female = {
+					1 = female_headgear_secular_fp2_iberian_christian_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			fp2_christian_war_nobility = {
+				index = 96
+				male = {
+					1 = m_headgear_sec_fp2_iberian_christian_war_nob_01_lo
+					1 = m_headgear_sec_fp2_iberian_christian_war_nob_01_hi
+				}
+				
+				female = {
+					1 = f_headgear_sec_fp2_iberian_christian_war_nob_01_lo
+					1 = f_headgear_sec_fp2_iberian_christian_war_nob_01_hi
+
+				}
+				boy = male
+				girl = female
+			}
+
+			fp2_muslim_common = {
+				index = 97
+				male = {
+					1 = male_headgear_secular_fp2_iberian_muslim_common_01_low
+				}
+				female = {
+					1 = female_headgear_secular_fp2_iberian_muslim_common_01
+					1 = female_headgear_secular_andalusian_cfp_common_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			fp2_muslim_low_nobility = {
+				index = 98
+				male = {
+					1 = male_headgear_secular_fp2_iberian_muslim_nobility_01
+					1 = male_headgear_secular_fp2_iberian_muslim_common_01_high
+				}
+				female = {
+					2 = female_headgear_secular_fp2_iberian_muslim_high_nobility_01_low
+					2 = female_headgear_secular_fp2_iberian_muslim_nobility_01
+					1 = female_headgear_secular_andalusian_cfp_low_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			fp2_muslim_high_nobility = {
+				index = 99
+				male = {
+					1 = male_headgear_secular_fp2_iberian_muslim_high_nobility_01
+				}
+				female = {
+					
+					4 = female_headgear_secular_fp2_iberian_muslim_high_nobility_01_high
+					1 = female_headgear_secular_andalusian_cfp_high_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			fp2_muslim_royalty = {
+				index = 100
+				male = {
+					1 = male_headgear_secular_fp2_iberian_muslim_royalty_01
+				}
+				female = {
+					1 = female_headgear_secular_fp2_iberian_muslim_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			fp2_muslim_war_nobility = {
+				index = 101
+				male = {
+					1 = m_headgear_sec_fp2_iberian_muslim_war_nob_01_lo
+					1 = m_headgear_sec_fp2_iberian_muslim_war_nob_01_hi
+					1 = male_headgear_secular_andalusian_cfp_war_nasal_02
+
+				}
+				
+				female = {
+					1 = f_headgear_sec_fp2_iberian_muslim_war_nob_01_lo
+					1 = f_headgear_sec_fp2_iberian_muslim_war_nob_01_hi
+					1 = female_headgear_secular_andalusian_cfp_war_nasal_02
+				}
+				boy = male
+				girl = female
+			}	
+
+			fp2_scripted_headgear_01 = {
+				index = 102
+				male = {
+					1 = no_headgear
+					1 = male_headgear_secular_fp2_iberian_muslim_common_01_low
+					1 = male_headgear_secular_fp2_iberian_muslim_high_nobility_01
+				}
+				boy = male
+				girl = male
+				female = male
+			}
+
+			## EP2 - Tours and Tournaments ##
+
+			ep2_western_era1_war_nobility = {
+				index = 103
+				male = {
+					20 = m_headgear_sec_ep2_western_era1_war_nob_01
+				}
+
+				female = {
+					10 = f_headgear_sec_ep2_western_era1_war_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep2_western_era2_war_nobility = {
+				index = 104
+				male = {
+					20 = m_headgear_sec_ep2_western_era2_war_nob_01
+				}
+
+				female = {
+					10 = f_headgear_sec_ep2_western_era2_war_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep2_western_era3_war_nobility = {
+				index = 105
+				male = {
+					20 = m_headgear_sec_ep2_western_war_nob_01_com
+					20 = m_headgear_sec_ep2_western_war_nob_01_lo
+					20 = m_headgear_sec_ep2_western_war_nob_01_hi
+				}
+
+				female = {
+					20 = f_headgear_sec_ep2_western_war_nob_01_com
+					20 = f_headgear_sec_ep2_western_war_nob_01_lo
+					20 = f_headgear_sec_ep2_western_war_nob_01_hi
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep2_western_era4_war_nobility = {
+				index = 106
+				male = {
+					20 = m_headgear_sec_ep2_western_era4_war_nob_01
+					10 = m_headgear_sec_ep2_western_era4_war_nob_02
+					10 = m_headgear_sec_ep2_western_era4_war_nob_02_01
+				}
+
+				female = {
+					10 = f_headgear_sec_ep2_western_era4_war_nob_01
+					10 = f_headgear_sec_ep2_western_era4_war_nob_02
+					10 = f_headgear_sec_ep2_western_era4_war_nob_02_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep2_western_era1_common = {
+				index = 107
+				male = {
+					#EPE
+					5 = empty
+					5 = male_fra_phrygian_cap_01
+					5 = male_fra_phrygian_cap_02
+					5 = male_fra_phrygian_cap_03
+					5 = m_headgear_sec_ep2_western_era1_com_01
+				}
+				female = {
+					20 = empty
+					10 = f_headgear_sec_ep2_western_era1_com_01
+					10 = f_headgear_sec_ep2_western_era1_com_02
+				}
+				boy = male
+				girl = female
+			}
+
+			ep2_western_era1_nobility = {
+				index = 108
+				male = {
+					# 10 = empty
+					10 = m_headgear_sec_ep2_western_era1_nob_01
+					10 = m_headgear_sec_ep2_western_era1_nob_02
+				}
+
+				female = {
+					# 20 = empty
+					10 = f_headgear_sec_ep2_western_era1_nob_01
+					10 = f_headgear_sec_ep2_western_era1_nob_02
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep2_western_era1_high_nobility = {
+				index = 109
+				male = {
+					10 = m_headgear_sec_ep2_western_era1_nob_01
+					10 = m_headgear_sec_ep2_western_era1_nob_02
+				}
+
+				female = {
+					10 = f_headgear_sec_ep2_western_era1_hi_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep2_western_era1_royalty = {
+				index = 110
+				male = {
+					#EPE
+					5 = m_headgear_sec_ep2_western_era1_roy_01
+					5 = m_epe_era1_carol_royalty_01
+					5 = m_epe_era1_carol_royalty_02
+					# 20 = male_frankish_royal_crown_01_b
+				}
+				female = {
+					#EPE
+					5 = f_headgear_sec_ep2_western_era1_roy_01
+					5 = f_epe_era1_carol_royalty_01
+					5 = f_epe_era1_carol_royalty_02
+					# 10 = female_frankish_royal_crown_01_b
+				}
+				boy = male
+				girl = female
+			}
+
+			ep2_western_era1_imperial = {
+				index = 111
+				male = {
+					20 = m_headgear_sec_ep2_western_era1_imp_01
+				}
+				female = {
+					10 = f_headgear_sec_ep2_western_era1_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep2_western_era3_common = {
+				index = 112
+				male = {
+					20 = empty
+					10 = male_headgear_secular_western_common_01
+					10 = male_headgear_secular_western_common_02
+					20 = male_headgear_secular_dde_hre_common_01
+					20 = male_headgear_secular_dde_hre_common_02
+				}
+				female = {
+					5 = female_headgear_secular_western_nobility_01
+					5 = female_headgear_secular_western_nobility_02
+					10 = female_headgear_secular_dde_hre_common_01
+					10 = female_headgear_secular_dde_hre_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			ep2_western_era3_nobility = {
+				index = 113
+				male = {
+					20 = empty
+					10 = male_headgear_secular_western_common_01
+					10 = male_headgear_secular_western_common_02
+					20 = male_headgear_secular_dde_hre_common_01
+					20 = male_headgear_secular_dde_hre_common_02
+				}
+
+				female = {
+					5 = female_headgear_secular_western_nobility_01
+					5 = female_headgear_secular_western_nobility_01_2
+					5 = female_headgear_secular_western_nobility_02
+					5 = female_headgear_secular_western_nobility_03
+					10 = female_headgear_secular_dde_hre_common_01
+					10 = female_headgear_secular_dde_hre_common_02
+				}
+
+				boy = male
+				girl = female
+			}
+
+			western_era3_royalty = {
+				index = 114
+				male = {
+					1 = male_headgear_secular_western_royalty_01
+					1 = male_headgear_secular_western_royalty_02
+					1 = male_headgear_secular_dde_hre_royalty_02
+				}
+				female = {
+					1 = female_headgear_secular_western_royalty_01
+					1 = female_headgear_secular_western_royalty_02
+					1 = female_headgear_secular_dde_hre_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			ep2_mena_war_nobility = {
+				index = 115
+				male = {
+					20 = m_headgear_sec_ep2_mena_war_nob_01
+				}
+
+				female = {
+					10 = f_headgear_sec_ep2_mena_war_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep2_steppe_war_nobility = {
+				index = 116
+				male = {
+					20 = m_headgear_sec_ep2_steppe_war_nob_01
+				}
+
+				female = {
+					10 = f_headgear_sec_ep2_steppe_war_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep2_byzantine_war_nobility = {
+				index = 117
+				male = {
+					20 = m_headgear_sec_ep2_byzantine_war_nob_01
+				}
+
+				female = {
+					10 = f_headgear_sec_ep2_byzantine_war_nob_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			ep2_indian_war_nobility = {
+				index = 118
+				male = {
+					20 = m_headgear_sec_ep2_indian_war_nob_01
+				}
+
+				female = {
+					 10 = f_headgear_sec_ep2_indian_war_nob_01
+				}
+
+				boy = male
+				girl = female
+
+			}
+
+
+		## SP2 - Elegance of the Empire ##
+
+
+			sp2_western_imperial = {
+				index = 119
+				male = {
+					1 = m_headgear_sec_sp2_western_imp_01
+				}
+				female = {
+					1 = f_headgear_sec_sp2_western_imp_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			sp2_western_high_nobility = {
+				index = 120
+				male = {
+					1 = m_headgear_sec_sp2_western_hi_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_sp2_western_hi_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			reward_western_royalty = {
+				index = 121
+				male = {
+					1 = male_headgear_secular_western_royalty_03
+				}
+				female = {
+					1 = female_headgear_secular_western_royalty_03
+				}
+				boy = male
+				girl = male
+			}
+
+			## EP2 - Weddings ##
+
+			western_wedding = {
+				index = 122
+				male = {
+					1 = m_headgear_spec_ep2_western_wedding
+				}
+				female = {
+					1 = f_headgear_spec_ep2_western_wedding
+				}
+				boy = male
+				girl = female
+			}
+
+			mena_wedding = {
+				index = 123
+				male = {
+					#1 = m_headgear_spec_ep2_mena_wedding
+				}
+				female = {
+					1 = f_headgear_spec_ep2_mena_wedding
+				}
+				boy = male
+				girl = female
+			}
+
+			byzantine_wedding = {
+				index = 124
+				male = {
+					1 = m_headgear_spec_ep2_byzantine_wedding
+				}
+				female = {
+					1 = f_headgear_spec_ep2_byzantine_wedding
+				}
+				boy = male
+				girl = female
+			}
+	
+			####################################################################################################
+			##################
+			## FP3 - Sands of Time ##/EPE-Eastern non islamic Iranian
+			##################
+			####################################################################################################
+
+			fp3_iranian_royalty = { ##EPE-Eastern non islamic Iranian
+				index = 125
+				male = {
+					1 = m_headgear_sec_fp3_iranian_roy_01
+				}
+				female = {
+					1 = f_headgear_sec_fp3_iranian_roy_01
+				}
+				boy = male
+				girl = female
+			}
+
+			fp3_iranian_low_nobility = { ##EPE-Eastern non islamic Iranian
+				index = 126
+				male = {
+					1 = m_headgear_sec_fp3_iranian_nob_01
+					###EPE
+					50 = male_headgear_secular_sogdian_cap_01_low					
+					50 = male_headgear_secular_sogdian_headband_01_low							
+					#CFP
+					50 = male_headgear_secular_iranian_cfp_panel_low_01
+					50 = male_headgear_secular_iranian_cfp_qalansuwah_low_01
+					50 = male_headgear_secular_iranian_cfp_qalansuwah_low_02
+				}
+				female = {
+					1 = f_headgear_sec_fp3_iranian_nob_01
+					###EPE
+					60 = female_headgear_eastern_iranian_qub_01a_low	
+					60 = female_headgear_eastern_iranian_veil_03_low
+					60 = female_headgear_secular_sogdian_headband_01_low									#CFP
+					60 = female_headgear_secular_iranian_cfp_panel_low_01
+				}
+				boy = male
+				girl = female
+			}
+
+			fp3_iranian_nobility = { ##EPE-Eastern non islamic Iranian
+				index = 127
+				male = {
+					1 = m_headgear_sec_fp3_iranian_nob_01
+					5 = m_headgear_sec_fp3_iranian_nob_02
+					###EPE
+					# 1 = male_non_islamic_iranian_bulb_01_white
+					#CFP
+					3 = male_headgear_secular_iranian_cfp_qalansuwah_high_01
+				}
+				female = {
+					3 = f_headgear_sec_fp3_iranian_nob_01
+					3 = f_headgear_sec_fp3_iranian_nob_02
+					###EPE					
+					3 = female_headgear_iranian_qub_01_low				
+					3 = female_non_islamic_iranian_high_hairstyle_01	
+					1 = f_sogdian_noble_turban_01				
+				}
+				boy = male
+				girl = female
+			}
+
+			fp3_iranian_war = { ##EPE islamic Iranian era 4
+				index = 128
+				male = {
+					1 = m_headgear_sec_fp3_iranian_war_nob_01
+					#CFP
+					1 = male_headgear_secular_iranian_cfp_war_khud_01
+					1 = male_headgear_secular_iranian_cfp_war_khud_02
+					1 = male_headgear_secular_iranian_cfp_war_ilkanate_01
+				}
+				female = {
+					1 = f_headgear_sec_fp3_iranian_war_nob_01
+					#CFP
+					1 = female_headgear_secular_iranian_cfp_war_khud_01
+					1 = female_headgear_secular_iranian_cfp_war_khud_02
+					1 = female_headgear_secular_iranian_cfp_war_ilkanate_01
+				}
+				boy = male
+				girl = female
+			}
+
+			fp3_iranian_imperial = { ##EPE-Eastern non islamic Iranian
+				index = 129
+				male = {
+					1 = m_headgear_sec_fp3_iranian_imp_01
+				}
+				female = {
+					1 = f_headgear_sec_fp3_iranian_imp_01
+				}
+				boy = male
+				girl = female
+			}
+
+			## FP3 - Turkic ##
+
+			fp3_turkic_low_nobility = {
+				index = 130
+				male = {
+					1 = m_headgear_sec_fp3_turkic_nob_01
+					20 = male_headgear_secular_steppe_common_01
+					20 = male_Turkic_Fur_Cap_01
+					20 = male_Turkic_Fur_Cap_02	
+					20 = male_Turkic_Fur_Cap_03
+					20 = male_Turkic_Fur_Cap_04	
+                    20 = male_Turkic_Fur_Cap_05						
+					#CFP
+					20 = male_headgears_secular_turkic_low_cuman_nobility_01
+					15 = male_headgears_secular_turkic_low_cuman_nobility_02
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_steppe_common_01
+				}
+				boy = male
+				girl = female
+			}
+
+			fp3_turkic_nobility = {
+				index = 131
+				male = {
+					1 = m_headgear_sec_fp3_turkic_nob_02
+                    25 = male_Turkic_Fur_Cap_04	
+                    25 = male_Turkic_Fur_Cap_05				
+                    25 = male_headgear_secular_steppe_nobility_01
+					#CFP
+					25 = male_headgears_secular_turkic_high_cuman_nobility_01
+					25 = male_headgears_secular_turkic_high_cuman_nobility_02
+				}
+				female = {
+					5 = female_cuman_noble_hat_01
+					#CFP
+					5 = female_headgears_secular_turkic_high_cuman_nobility_01
+				}
+				boy = male
+				girl = female
+			}			
+
+			####################################################################################################
+			##################
+			###Bulgarian
+			##################
+			####################################################################################################
+
+			bulgarian_common = {
+				index = 132
+				male = {
+					10 = empty
+					5 = male_headgear_secular_byzantine_common_01
+				}
+				female = {
+					10 = empty
+					5 = female_headgear_secular_byzantine_common_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			bulgarian_low_nobility = {
+				index = 133
+				male = {
+					5 = empty
+					5 = male_headgear_secular_byzantine_nobility_01
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_byzantine_nobility_01
+				}            
+				boy = male
+				girl = female
+			}		
+			
+			bulgarian_high_nobility = {
+				index = 134
+				male = {
+					5 = male_headgear_secular_byzantine_high_nobility_01
+
+				}
+				female = {
+					5 = female_headgear_secular_byzantine_nobility_01			
+					5 = female_headgear_secular_byzantine_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}		
+
+			bulgarian_royalty = {
+				index = 135
+				male = {
+					2 = male_bulg_imperial_crown_01
+					
+				}
+				female = {
+					2 = female_bulg_imperial_crown_01			
+				}
+				boy = male
+				girl = female
+			}		
+
+			bulgarian_imperial = {
+				index = 136
+				male = {
+					1 = male_bulg_imperial_crown_01
+					
+				}
+				female = {
+					1 = female_bulg_imperial_crown_01			
+				}
+				boy = male
+				girl = female
+			}
+
+			bulgarian_war = {
+				index = 137
+				male = {
+					1 = male_epe_byz_spangenhelm_01				
+					1 = m_headgear_sec_byzantine_war_nob_01_lo
+					1 = m_headgear_sec_byzantine_war_nob_01_hi
+					1 = m_headgear_sec_byzantine_war_nob_01_roy				
+				}
+				female = {
+					1 = f_headgear_sec_byzantine_war_nob_01_lo
+					1 = f_headgear_sec_byzantine_war_nob_01_hi
+					1 = f_headgear_sec_byzantine_war_nob_01_roy
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###South Slav
+			##################
+			####################################################################################################
+
+			south_slav_common = {
+				index = 138
+				male = {
+					10 = empty
+					5 = male_headgear_secular_byzantine_common_01
+				}
+				female = {
+					10 = empty
+					5 = female_headgear_secular_byzantine_common_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			south_slav_low_nobility = {
+				index = 139
+				male = {
+					5 = empty
+					5 = male_headgear_secular_byzantine_nobility_01
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_byzantine_nobility_01
+				}            
+				boy = male
+				girl = female
+			}		
+			
+			south_slav_high_nobility = {
+				index = 140
+				male = {
+					5 = male_headgear_secular_byzantine_high_nobility_01
+
+				}
+				female = {
+					5 = female_headgear_secular_byzantine_nobility_01			
+					5 = female_headgear_secular_byzantine_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}		
+
+			south_slav_royalty = {
+				index = 141
+				male = {
+					1 = male_byz_royal_crown_01
+					1 = male_byz_royal_crown_02
+					1 = male_byz_royal_crown_03
+					
+				}
+				female = {
+					1 = female_byz_royal_crown_01
+					1 = female_byz_royal_crown_02	
+	
+				}
+				boy = male
+				girl = female
+			}		
+
+			south_slav_imperial = {
+				index = 142
+				male = {
+					1 = male_byz_imp_stemma_01
+					1 = male_byz_imp_stemma_02	
+					1 = male_byz_imp_stemma_03
+				}
+				female = {
+					3 = byz_female_imperial_crown_hair_01				
+					1 = female_headgear_secular_byzantine_imperial_01	
+					2 = Byzantine_Empress_Veil_Cowl_3
+					2 = Byzantine_Empress_Veil_Cowl_3_transparent	
+					2 = Byzantine_Empress_Veil_Cowl_3_novail					
+				}
+				boy = male
+				girl = female
+			}
+
+			south_slav_war = {
+				index = 143
+				male = {
+					1 = male_epe_byz_spangenhelm_01				
+					1 = m_headgear_sec_byzantine_war_nob_01_lo
+					1 = m_headgear_sec_byzantine_war_nob_01_hi
+					1 = m_headgear_sec_byzantine_war_nob_01_roy				
+				}
+				female = {
+					1 = f_headgear_sec_byzantine_war_nob_01_lo
+					1 = f_headgear_sec_byzantine_war_nob_01_hi
+					1 = f_headgear_sec_byzantine_war_nob_01_roy
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####Croatia Kingdom titles	
+			croatia_title_royalty = {
+				index = 144
+				male = {
+					1 = male_crown_of_zvonimir_01
+					
+				}
+				female = {
+					1 = female_byz_royal_crown_01		
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###Georgian
+			##################
+			####################################################################################################
+
+			georgian_common = {
+				index = 145
+				male = {
+					10 = empty
+					5 = male_headgear_secular_byzantine_common_01
+				}
+				female = {
+					10 = empty
+					5 = female_headgear_secular_byzantine_common_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			georgian_low_nobility = {
+				index = 146
+				male = {
+					5 = empty
+					5 = male_headgear_secular_byzantine_nobility_01
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_byzantine_nobility_01
+				}            
+				boy = male
+				girl = female
+			}		
+			
+			georgian_high_nobility = {
+				index = 147
+				male = {
+					5 = male_headgear_secular_byzantine_high_nobility_01
+
+				}
+				female = {
+					5 = female_headgear_secular_byzantine_nobility_01			
+					5 = female_headgear_secular_byzantine_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}		
+
+			georgian_royalty = {
+				index = 148
+				male = {
+					1 = male_georgian_royal_crown_01
+					
+				}
+				female = {
+					1 = female_georgian_royal_crown_01
+					
+				}
+				boy = male
+				girl = female
+			}		
+
+			georgian_imperial = {
+				index = 149
+				male = {
+					1 = male_byz_imp_stemma_01
+					1 = male_byz_imp_stemma_02	
+					1 = male_byz_imp_stemma_03
+				}
+				female = {
+					3 = byz_female_imperial_crown_hair_01				
+					1 = female_headgear_secular_byzantine_imperial_01	
+					2 = Byzantine_Empress_Veil_Cowl_3
+					2 = Byzantine_Empress_Veil_Cowl_3_transparent	
+					2 = Byzantine_Empress_Veil_Cowl_3_novail					
+				}
+				boy = male
+				girl = female
+			}
+
+			georgian_war = {
+				index = 150
+				male = {
+					1 = male_epe_byz_spangenhelm_01				
+					1 = m_headgear_sec_byzantine_war_nob_01_lo
+					1 = m_headgear_sec_byzantine_war_nob_01_hi
+					1 = m_headgear_sec_byzantine_war_nob_01_roy				
+				}
+				female = {
+					1 = f_headgear_sec_byzantine_war_nob_01_lo
+					1 = f_headgear_sec_byzantine_war_nob_01_hi
+					1 = f_headgear_sec_byzantine_war_nob_01_roy
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###Armenian
+			##################
+			####################################################################################################
+
+			armenian_common = {
+				index = 151
+				male = {
+					10 = empty
+					5 = male_headgear_secular_byzantine_common_01
+				}
+				female = {
+					10 = empty
+					5 = female_headgear_secular_byzantine_common_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			armenian_low_nobility = {
+				index = 152
+				male = {
+					# 5 = empty
+					5 = male_headgear_secular_byzantine_nobility_01
+				}
+				female = {
+					# 5 = empty
+					5 = female_headgear_secular_byzantine_nobility_01
+				}            
+				boy = male
+				girl = female
+			}		
+			
+			armenian_high_nobility = {
+				index = 153
+				male = {
+					5 = male_headgear_secular_byzantine_high_nobility_01
+
+				}
+				female = {
+					5 = female_headgear_secular_byzantine_nobility_01			
+					5 = female_headgear_secular_byzantine_high_nobility_01
+				}
+				boy = male
+				girl = female
+			}		
+
+			armenian_royalty = {
+				index = 154
+				male = {
+					1 = male_arm_royal_crown_01
+					
+				}
+				female = {
+					1 = female_arm_royal_crown_01
+					1 = female_arm_royal_crown_01_veil
+					1 = female_arm_royal_crown_02_veil
+					
+				}
+				boy = male
+				girl = female
+			}		
+
+			armenian_imperial = {
+				index = 155
+				male = {
+					1 = male_byz_imp_stemma_01
+					1 = male_byz_imp_stemma_02	
+					1 = male_byz_imp_stemma_03
+				}
+				female = {
+					3 = byz_female_imperial_crown_hair_01				
+					1 = female_headgear_secular_byzantine_imperial_01	
+					2 = Byzantine_Empress_Veil_Cowl_3
+					2 = Byzantine_Empress_Veil_Cowl_3_transparent	
+					2 = Byzantine_Empress_Veil_Cowl_3_novail					
+				}
+				boy = male
+				girl = female
+			}
+
+			armenian_war = {
+				index = 156
+				male = {
+					1 = male_epe_byz_spangenhelm_01				
+					1 = m_headgear_sec_byzantine_war_nob_01_lo
+					1 = m_headgear_sec_byzantine_war_nob_01_hi
+					1 = m_headgear_sec_byzantine_war_nob_01_roy				
+				}
+				female = {
+					1 = f_headgear_sec_byzantine_war_nob_01_lo
+					1 = f_headgear_sec_byzantine_war_nob_01_hi
+					1 = f_headgear_sec_byzantine_war_nob_01_roy
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###East Slav
+			##################
+			####################################################################################################
+
+			east_slav_common = {
+				index = 157
+				male = {
+					5 = empty
+					5 = male_headgear_northern_slav_common_01
+					5 = male_headgear_northern_slav_common_02				
+					5 = male_headgear_northern_slav_headband_01_common		
+				}
+				female = {
+					5 = empty
+					2 = female_headgear_northern_slav_common_01
+					2 = female_headgear_northern_slav_common_02	
+					2 = female_headgear_northern_slav_common_03					
+					2 = female_headgear_northern_slav_headband_01_common
+
+				}
+				boy = male
+				girl = female
+			}
+		
+			east_slav_nobility = {
+				index = 158
+				male = {
+					5 = male_headgear_northern_slav_common_01
+					5 = male_headgear_northern_slav_common_02						
+					5 = male_headgear_northern_slav_headband_01_low
+				}
+				female = {
+					2 = female_headgear_northern_slav_common_01
+					2 = female_headgear_northern_slav_common_02	
+					2 = female_headgear_northern_slav_common_03	
+					2 = female_headgear_northern_slav_headband_01_low
+				}
+				boy = male
+				girl = female
+			}
+
+			east_slav_high_nobility = {
+				index = 159
+				male = {
+					1 = male_headgear_northern_slav_headband_01_high
+				}
+				female = {
+					5 = female_headgear_northern_slav_headband_01_high
+
+				}
+				boy = male
+				girl = female
+			}
+
+			east_slav_royalty = {
+				index = 160
+				male = {
+					5 = m_headgear_epe_east_slav_royalty_01
+				}
+				female = {
+					5 = female_headgear_secular_byzantine_nobility_01
+				}
+				boy = male
+				girl = female
+			}
+
+			east_slav_imperial = {
+				index = 161
+				male = {
+					1 = male_headgear_secular_byzantine_imperial_01
+				}
+				female = {
+					1 = female_headgear_secular_byzantine_imperial_01				
+				}
+				boy = male
+				girl = female
+			}
+
+			east_slav_war = {
+				index = 162
+				male = {
+					1 = male_epe_byz_spangenhelm_01
+					1 = m_headgear_sec_byzantine_war_nob_01_lo
+					1 = m_headgear_sec_byzantine_war_nob_01_hi				
+				}
+				female = {
+					1 = f_headgear_sec_northern_war_nob_01_lo
+					1 = f_headgear_sec_byzantine_war_nob_01_lo
+					1 = f_headgear_sec_byzantine_war_nob_01_hi			
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###Balto-Finnic
+			##################
+			####################################################################################################
+
+			balto_finnic_common = {
+				index = 163
+				male = {
+					3 = empty			
+					2 = male_Turkic_Fur_Cap_02
+					1 = male_Turkic_Fur_Cap_01
+					1 = male_headgear_secular_fp1_common_01	
+				}
+				female = {
+					1 = female_headgear_secular_fp1_common_01
+					1 = female_headgear_secular_fp1_common_02
+					1 = female_headgear_secular_northern_common_01		
+				}
+				boy = male
+				girl = female
+			}
+		
+			balto_finnic_low_nobility = {
+				index = 164
+				male = {
+					2 = male_headgear_secular_fp1_nobility_01
+					1 = male_headgear_secular_fp1_common_01
+					1 = male_Turkic_Fur_Cap_02
+				}
+				female = {
+					1 = female_headgear_secular_fp1_common_01
+					1 = female_headgear_secular_fp1_common_02
+					1 = female_headgear_secular_fp1_nobility_03	
+					1 = female_headgear_secular_northern_common_01	
+				}
+				boy = male
+				girl = female
+			}
+
+			balto_finnic_high_nobility = {
+				index = 165
+				male = {
+					2 = male_headgear_secular_fp1_nobility_01
+					1 = male_headgear_secular_fp1_common_01
+					1 = male_Turkic_Fur_Cap_04
+				}
+				female = {
+					1 = female_headgear_secular_fp1_nobility_01
+					1 = female_headgear_secular_fp1_nobility_02
+					1 = female_headgear_secular_fp1_nobility_03		
+					1 = female_headgear_secular_northern_common_01		
+
+				}
+				boy = male
+				girl = female
+			}
+
+			balto_finnic_royalty = {
+				index = 166
+				male = {
+					1 = male_headgear_secular_fp1_royalty_01
+
+				}
+				female = {
+					1 = female_headgear_secular_fp1_royalty_01		
+							
+				}
+				boy = male
+				girl = female
+			}
+
+			balto_finnic_imperial = {
+				index = 167
+				male = {
+					1 = male_headgear_secular_fp1_imperial_01
+
+				}
+				female = {
+					1 = female_headgear_secular_fp1_imperial_01		
+							
+				}
+				boy = male
+				girl = female
+			}			
+
+			balto_finnic_war = {
+				index = 168
+				male = {
+					1 = m_headgear_sec_northern_war_nob_01_lo
+					1 = m_headgear_sec_northern_war_nob_01_hi
+				
+					}
+				female = {
+					1 = f_headgear_sec_northern_war_nob_01_lo
+					1 = f_headgear_sec_northern_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###Early West Slav
+			##################
+			####################################################################################################
+
+			early_west_slav_common = {
+				index = 169
+				male = {
+					3 = empty			
+				    1 = male_headgear_secular_fp1_common_01				
+				    2 = male_Turkic_Fur_Cap_02
+				    1 = male_Turkic_Fur_Cap_01
+				}
+				female = {
+				    1 = female_headgear_secular_fp1_common_01
+				    1 = female_headgear_secular_fp1_common_02
+				    1 = female_headgear_secular_northern_common_01		
+				    1 = female_headgear_early_west_slav_common_01
+				    1 = female_headgear_early_west_slav_common_02
+				    1 = female_headgear_early_west_slav_common_03	
+				    1 = female_headgear_early_west_slav_common_04		
+				}
+				boy = male
+				girl = female
+			}
+		
+
+			early_west_slav_low_nobility = {
+				index = 170
+				male = {
+				    2 = male_headgear_secular_fp1_nobility_01
+				    1 = male_headgear_secular_fp1_common_01
+				    2 = male_Turkic_Fur_Cap_02
+				    1 = male_Turkic_Fur_Cap_01
+				}
+				female = {
+				    1 = female_headgear_secular_fp1_common_01
+				    1 = female_headgear_secular_fp1_common_02
+				    1 = female_headgear_secular_fp1_nobility_03	
+				    1 = female_headgear_secular_northern_common_01	
+				    1 = female_headgear_early_west_slav_common_01
+				    1 = female_headgear_early_west_slav_common_02
+				    1 = female_headgear_early_west_slav_common_03	
+				    1 = female_headgear_early_west_slav_common_04
+				}
+				boy = male
+				girl = female
+			}
+
+			early_west_slav_high_nobility = {
+				index = 171
+				male = {
+					1 = male_headgear_secular_fp1_nobility_01
+					1 = male_Turkic_Fur_Cap_04
+				}
+				female = {
+				    1 = female_headgear_early_west_slav_high_03	
+				    1 = female_headgear_early_west_slav_high_04		
+
+				}
+				boy = male
+				girl = female
+			}
+
+			early_west_slav_royalty = {
+				index = 172
+				male = {
+					1 = male_headgear_secular_fp1_royalty_01
+
+				}
+				female = {
+					1 = female_headgear_secular_fp1_royalty_01		
+							
+				}
+				boy = male
+				girl = female
+			}
+
+			early_west_slav_imperial = {
+				index = 173
+				male = {
+					1 = male_headgear_secular_fp1_imperial_01
+
+				}
+				female = {
+					1 = female_headgear_secular_fp1_imperial_01		
+							
+				}
+				boy = male
+				girl = female
+			}			
+
+			early_west_slav_war = {
+				index = 174
+				male = {
+				    1 = male_moravian_spangenhelm_01
+				    1 = male_moravian_spangenhelm_02				
+					#1 = m_headgear_sec_northern_war_nob_01_lo
+					#1 = m_headgear_sec_northern_war_nob_01_hi
+				
+					}
+				female = {
+					1 = f_headgear_sec_northern_war_nob_01_lo
+					1 = f_headgear_sec_northern_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###Gaelic/Irish  
+			##################
+			####################################################################################################
+
+			gaelic_common = {
+				index = 175
+				male = {		
+				    1 = empty
+				    2 = male_headgear_secular_northern_common_01
+				    2 = male_norse_pannonian_cap_01	
+				    1 = male_norse_phrygian_cap_01	
+				    1 = male_norse_phrygian_cap_02	
+				    1 = male_norse_phrygian_cap_03	
+				}
+				female = {
+				    1 = empty
+				    1 = female_headgear_secular_northern_common_01		
+				}
+				boy = male
+				girl = female
+			}
+		
+			gaelic_low_nobility = {
+				index = 176
+				male = {
+				    5 = male_celtic_leather_headband_01	
+				    5 = male_celtic_leather_headband_02
+				    3 = male_gaelic_low_noble_circlet_04
+				    3 = male_gaelic_low_noble_circlet_05
+				    1 = male_Circlets_Western_Small_Leather_Pearls
+                    1 = male_Circlets_Western_Small_Leather_Pearls_02
+                    1 = male_Circlets_Western_Small_Leather_Pearls_03
+				}
+				female = {
+				    3 = female_celtic_leather_headband_01	
+				    3 = female_celtic_leather_headband_02
+                    2 = female_Circlets_Western_Small_Leather_Pearls					
+                    2 = female_Circlets_Western_Small_Leather_Pearls_02
+                    2 = female_Circlets_Western_Small_Leather_Pearls_03
+				    3 = female_gaelic_low_noble_circlet_04
+				    3 = female_gaelic_low_noble_circlet_05	
+				}
+				boy = male
+				girl = female
+			}
+
+			gaelic_high_nobility = {
+				index = 177
+				male = {
+				    2 = male_gaelic_high_noble_circlet_01
+                    2 = male_gaelic_high_noble_circlet_02
+				}
+				female = {
+				    2 = female_gaelic_high_noble_circlet_01
+                    2 = female_gaelic_high_noble_circlet_02
+				}
+				boy = male
+				girl = female
+			}
+
+			gaelic_royalty = {
+				index = 178
+				male = {
+                    2 = male_gaelic_royal_crown_01
+				    2 = male_gaelic_royal_crown_02	
+				}
+				female = {	
+                    2 = female_gaelic_royal_crown_01
+				    2 = female_gaelic_royal_crown_02								
+				}
+				boy = male
+				girl = female
+			}
+
+			gaelic_imperial = {
+				index = 179
+				male = {
+					2 = male_gaelic_imperial_crown_01
+
+				}
+				female = {
+					2 = female_gaelic_imperial_crown_01		
+							
+				}
+				boy = male
+				girl = female
+			}			
+
+			gaelic_war = {
+				index = 180
+				male = {
+					1 = m_headgear_sec_northern_war_nob_01_lo
+					1 = m_headgear_sec_northern_war_nob_01_hi
+				
+					}
+				female = {
+					1 = f_headgear_sec_northern_war_nob_01_lo
+					1 = f_headgear_sec_northern_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###Eastern Turkic/Default Turk
+			##################
+			####################################################################################################
+
+			eastern_turk_common = {
+				index = 181
+				male = {
+				    5 = male_headgear_secular_steppe_common_01
+				    5 = male_Turkic_Fur_Cap_01
+				    5 = male_Turkic_Fur_Cap_02	
+				    5 = male_Turkic_Fur_Cap_03
+				    5 = male_Turkic_Fur_Cap_04	
+                    5 = male_Turkic_Fur_Cap_05											
+				}
+				female = {
+				    5 = empty
+				    5 = female_headgear_secular_steppe_common_01					
+				}
+				boy = male
+				girl = female
+			}	
+
+			eastern_turk_low_nobility = {
+				index = 182
+				male = {
+				    5 = m_headgear_sec_fp3_turkic_nob_01	
+				    5 = male_headgear_secular_steppe_common_01
+				    5 = male_Turkic_Fur_Cap_01
+				    5 = male_Turkic_Fur_Cap_02	
+				    5 = male_Turkic_Fur_Cap_03
+				    5 = male_Turkic_Fur_Cap_04	
+                    5 = male_Turkic_Fur_Cap_05						
+					5 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat						
+				}
+				female = {
+                    # 5 = empty
+                    5 = female_headgear_secular_steppe_common_01
+				}
+				boy = male
+				girl = female
+			}	
+
+			eastern_turk_high_nobility = {
+				index = 183
+				male = {
+                    1 = male_Turkic_Fur_Cap_04	
+                    1 = male_Turkic_Fur_Cap_05				
+                    1 = male_headgear_secular_steppe_nobility_01
+			
+				}
+				female = {
+					5 = female_cuman_noble_hat_01
+				}
+				boy = male
+				girl = female
+			}
+
+			eastern_turk_royalty = {
+				index = 184
+				male = {
+				    3 = Male_Turkic_Eagle_Crown_01			
+				    2 = male_Turkic_Eagle_Crown_02
+				    3 = male_Turkic_Eagle_Crown_02_02				
+				    2 = male_Turkic_Fur_Cap_04	
+                    2 = male_Turkic_Fur_Cap_05					
+					
+				}
+				female = {
+					1 = female_headgear_secular_steppe_high_nobility_01
+				    1 = Female_Khanum_Headress_01	
+				    1 = Female_Khanum_Headress_02					
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			eastern_turk_imperial = {
+				index = 185
+				male = {		
+				    3 = Male_Turkic_Eagle_Crown_01			
+				    2 = male_Turkic_Eagle_Crown_02
+				    2 = male_Turkic_Eagle_Crown_02_02						
+					
+				}
+				female = {
+					1 = female_headgear_secular_steppe_high_nobility_01
+				    1 = Female_Khanum_Headress_01	
+				    1 = Female_Khanum_Headress_02					
+					
+				}
+				boy = male
+				girl = female
+			}			
+
+			eastern_turk_war = {
+				index = 186
+				male = {
+					1 = m_headgear_sec_steppe_war_nob_01_lo
+					1 = m_headgear_sec_steppe_war_nob_01_hi
+					
+				}
+				female = {
+					1 = f_headgear_sec_steppe_war_nob_01_lo
+					1 = f_headgear_sec_steppe_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}			
+	
+			####################################################################################################
+			##################
+			###	Roman
+			##################
+			####################################################################################################
+
+			roman_imperial = {
+				index = 187
+				male = {
+					1 = male_roman_emperor_wreath_01 
+				}
+				female = {
+					1 = female_roman_emperor_wreath_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			####################################################################################################
+			##################
+			###Seljuk Turk
+			##################
+			####################################################################################################
+
+			seljuk_turk_common = {
+				index = 188
+				male = {
+				    5 = male_headgear_all_era_iranian_qub_01_low
+				    5 = male_secular_arabic_qayah_qub_cap_01				
+				    5 = male_Turkic_Fur_Cap_01	
+				    5 = male_Turkic_Fur_Cap_02
+				    5 = male_Turkic_Fur_Cap_03					
+				    5 = male_headgear_secular_mena_common_01
+				    5 = male_headgear_secular_dde_abbasid_common_01
+				    5 = male_headgear_epe_white_mena_nobility_02	
+				    5 = male_headgear_epe_white_mena_nobility_03											
+				}
+				female = {
+				    5 = empty
+				    5 = female_headgear_secular_steppe_common_01			
+				    5 = female_headgear_iranian_qub_03_common
+				    5 = female_headgear_secular_mena_common_02
+				    5 = female_headgear_iranian_qub_01_common						
+				}
+				boy = male
+				girl = female
+			}	
+
+			seljuk_turk_low_nobility = {
+				index = 189
+				male = {		
+					50 = m_headgear_sec_fp3_turkic_nob_01 #CFP+EPE increased Wooly Cap spawn rate
+					10 = male_Seljuk_Leather_Hat_01	
+					10 = male_Seljuk_Leather_Hat_01_02					
+					10 = male_Seljuk_Leather_Hat_02		
+					10 = male_Seljuk_Leather_Hat_02_02					
+					10 = male_headgear_secular_mena_common_01
+					10 = male_Turkic_Fur_Cap_01	
+					5 = male_Turkic_Fur_Cap_02	
+					5 = male_Turkic_Fur_Cap_03
+					5 = male_headgear_all_era_iranian_qub_01_low				
+					10 = male_headgear_secular_mena_nobility_01
+					5 = male_headgear_epe_white_mena_nobility_02	
+					5 = male_headgear_epe_white_mena_nobility_03						
+					10 = m_headgear_sec_fp3_turkic_nob_01 #FP3 Turkic V Hat						
+				}
+				female = {
+					5 = female_headgear_secular_steppe_common_01	
+					5 = female_headgear_secular_mena_common_02
+					5 = female_headgear_iranian_qub_03_low
+					5 = female_headgear_iranian_qub_01_low	
+				}
+				boy = male
+				girl = female
+			}	
+
+			seljuk_turk_high_nobility = {
+				index = 190
+				male = {
+					20 = m_headgear_sec_fp3_turkic_nob_02 #CFP+EPE increased Sharbush spawn rate
+					5 = male_Seljuk_Leather_Hat_01	
+					5 = male_Seljuk_Leather_Hat_01_02					
+					5 = male_Seljuk_Leather_Hat_02	
+					5 = male_Seljuk_Leather_Hat_02_02					
+					5 = male_headgear_secular_mena_high_nobility_01
+					5 = male_Turkic_Fur_Cap_04	
+					5 = male_Turkic_Fur_Cap_05			
+				}
+				female = {
+					5 = female_headgear_epe_seljuk_01_high
+					5 = f_headgear_sec_fp3_seljuk_nob_01_hi	
+					5 = f_headgear_sec_fp3_seljuk_nob_02_hi						
+				}
+				boy = male
+				girl = female
+			}
+
+			seljuk_turk_royalty = {
+				index = 191
+				male = {
+					1 = male_seljuk_royal_crown_01			
+					1 = male_Seljuk_Helmet_Hat_02								
+				}
+				female = {
+					1 = female_headgear_epe_seljuk_royal_nobility_01
+					1 = female_headgear_epe_seljuk_royal_nobility_02					
+					1 = Female_Khanum_Headress_01_seljuk	
+					1 = Female_Khanum_Headress_02_seljuk					
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			seljuk_turk_imperial = {
+				index = 192
+				male = {		
+				    5 = male_seljuk_royal_crown_01			
+				    2 = male_headgear_secular_steppe_royalty_01
+				    2 = male_headgear_secular_steppe_royalty_01a						
+					
+				}
+				female = {
+					1 = female_headgear_epe_seljuk_royal_nobility_01
+					1 = female_headgear_epe_seljuk_royal_nobility_02					
+				    1 = Female_Khanum_Headress_01_seljuk	
+				    1 = Female_Khanum_Headress_02_seljuk						
+					
+				}
+				boy = male
+				girl = female
+			}			
+
+			seljuk_turk_war = {
+				index = 193
+				male = {
+				    1 = m_headgear_sec_mena_war_nob_01_lo
+				    1 = male_Seljuk_Warrior_Helmet_01
+				    1 = male_Seljuk_Warrior_Helmet_02
+				    1 = male_seljuk_war_helmet_03	
+				    1 = male_seljuk_war_helmet_04						
+				    1 = male_Seljuk_Helmet_Hat_01_war
+				    1 = male_Seljuk_Leather_Hat_02	
+					
+				}
+				female = {
+					1 = f_headgear_sec_mena_war_nob_01_lo
+					1 = f_headgear_sec_steppe_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###Early Abbasid (qalansuwwa)
+			##################
+			####################################################################################################
+			
+			early_abbasid_common = {
+				index = 194
+				male = {
+				    1 = male_secular_arabic_qayah_cap_01
+				    1 = male_secular_arabic_qub_cap_02
+				    1 = male_secular_arabic_qayah_qub_cap_01
+				    3 = male_headgear_secular_mena_common_01
+				    3 = male_headgear_secular_dde_abbasid_common_02
+				    1 = male_headgear_secular_dde_abbasid_common_01
+				    1 = male_headgear_epe_white_abbasid_common_01
+				    1 = male_headgear_epe_white_mena_nobility_02	
+				    1 = male_headgear_epe_white_mena_nobility_03									
+				}
+				female = {
+				    1 = female_headgear_secular_dde_abbasid_common_01
+				    1 = female_headgear_secular_dde_abbasid_common_02
+				    1 = female_headgear_secular_mena_common_01
+				    1 = female_headgear_secular_mena_common_02				
+				}
+				boy = male
+				girl = female
+			}	
+
+			early_abbasid_low_nobility = {
+				index = 195
+				male = {				
+                    1 = male_headgear_secular_arabic_qalansuwwa_01_low_noble
+				    1 = male_headgear_secular_arabic_qalansuwwa_07_01_noble	
+                    1 = male_headgear_secular_arabic_qalansuwwa_07_02_noble
+				    2 = male_headgear_epe_mena_low_01
+                    2 = male_headgear_secular_mena_nobility_01
+				    1 = male_headgear_epe_white_mena_nobility_02	
+				    1 = male_headgear_epe_white_mena_nobility_03						
+				}
+				female = {	
+					1 = female_headgear_secular_dde_abbasid_common_01
+					1 = female_headgear_secular_dde_abbasid_common_02
+					1 = female_headgear_secular_mena_common_01
+					1 = female_headgear_secular_mena_common_02		
+				}
+				boy = male
+				girl = female
+			}	
+
+			early_abbasid_high_nobility = {
+				index = 196
+				male = {
+				    1 = male_headgear_secular_arabic_qalansuwwa_01_noble
+				    1 = male_headgear_secular_arabic_qalansuwwa_01_noble_v2					
+				    1 = male_headgear_secular_arabic_qalansuwwa_02_noble
+			    	1 = male_headgear_secular_arabic_qalansuwwa_03_noble
+				    1 = male_headgear_secular_arabic_qalansuwwa_04_noble
+				    1 = male_headgear_secular_arabic_qalansuwwa_05_noble
+				    1 = male_headgear_secular_arabic_qalansuwwa_06_noble					
+				    1 = male_headgear_secular_arabic_qalansuwwa_08_noble
+				    1 = male_headgear_secular_mena_high_nobility_01
+				    1 = male_headgear_secular_dde_abbasid_high_nobility_01
+				    1 = male_headgear_religious_dde_muslim_head_01
+			    	1 = male_headgear_epe_white_abbasid_high_01	
+			    	1 = male_headgear_epe_white_mena_nobility_02	
+				    1 = male_headgear_epe_white_mena_nobility_03
+				}
+				female = {
+            	    1 = female_headgear_secular_mena_nobility_01
+                    1 = female_headgear_secular_dde_abbasid_high_nobility_01					
+				}
+				boy = male
+				girl = female
+			}
+
+			early_abbasid_royalty = {
+				index = 197
+				male = {		
+				    1 = male_headgear_secular_arabic_qalansuwwa_02_noble
+				    1 = male_headgear_secular_arabic_qalansuwwa_03_noble	
+				    1 = male_headgear_secular_arabic_qalansuwwa_04_noble	
+				    1 = male_headgear_secular_arabic_qalansuwwa_05_noble
+				    2 = male_headgear_secular_dde_abbasid_royalty_01	
+				    1 = male_headgear_epe_white_abbasid_royal_01							
+				}
+				female = {
+					1 = female_headgear_secular_dde_abbasid_royalty_01									
+				}
+				boy = male
+				girl = female
+			}						
+			
+			##################
+			###ADDASID Caliph
+			##################					
+			early_caliph_headgear = {
+				index = 198
+				male = {		
+				    # 1 = male_headgear_secular_arabic_qalansuwwa_02_noble
+				    # 1 = male_headgear_secular_arabic_qalansuwwa_03_noble	
+				    # 1 = male_headgear_secular_arabic_qalansuwwa_04_noble	
+				    # 1 = male_headgear_secular_arabic_qalansuwwa_05_noble
+				    # 2 = male_headgear_secular_dde_abbasid_royalty_01	
+				    # 1 = male_secular_arabic_caliph_qalansuwa_early
+				    1 = male_headgear_high_medieval_caliph_turban_01
+				    # 1 = male_headgear_religious_dde_muslim_head_01					
+				}
+				female = {
+					1 = female_headgear_secular_dde_abbasid_royalty_01									
+				}
+				boy = male
+				girl = female
+			}
+			
+			####################################################################################################
+			##################
+			###North africa
+			##################
+			####################################################################################################
+
+            ##Berber
+			
+			maghreb_common = {
+				index = 199
+				male = {
+				    5 = empty
+					10 = male_headgear_secular_sub_saharan_common_01	
+				    8 = male_headgear_epe_berber_tagelmust_01_common	
+				    8 = male_headgear_epe_berber_tagelmust_02_common	
+					10 = male_headgear_epe_berber_tagelmust_03_common	
+					10 = male_headgear_epe_berber_tagelmust_04_common					
+					10 = male_maghreb_common_01				
+					10 = male_headgear_secular_mena_common_01
+					10 = male_headgear_secular_dde_abbasid_common_02
+					10 = male_headgear_epe_white_mena_common_01			
+					10 = male_headgear_epe_white_mena_common_02	
+			     	5 = male_headgear_epe_white_mena_nobility_02	
+			    	5 = male_headgear_epe_white_mena_nobility_03											
+				}
+				female = {
+				    5 = female_headgear_secular_mena_common_01
+				    5 = female_headgear_secular_mena_common_02
+			    	5 = female_headgear_secular_dde_abbasid_common_01					
+				}
+				boy = male
+				girl = female
+			}	
+
+			maghreb_low_nobility = {
+				index = 200
+				male = {				
+				    3 = male_headgear_secular_sub_saharan_common_01				
+                    3 = male_headgear_epe_mena_low_01
+				    3 = male_headgear_epe_berber_tagelmust_01_low	
+				    3 = male_headgear_epe_berber_tagelmust_02_low
+				    3 = male_headgear_epe_berber_tagelmust_03_low	
+				    3 = male_headgear_epe_berber_tagelmust_04_low					
+			     	2 = male_headgear_epe_berber_tagelmust_01_high_white	
+				    2 = male_headgear_epe_berber_tagelmust_02_high_white	
+			     	3 = male_headgear_epe_berber_tagelmust_03_high_white
+				    3 = male_headgear_epe_berber_tagelmust_04_high_white				
+				    1 = male_headgear_secular_dde_abbasid_common_02
+				    1 = male_headgear_epe_white_mena_nobility_01
+				    1 = male_headgear_epe_white_mena_nobility_02	
+				    1 = male_headgear_epe_white_mena_nobility_03						
+				}
+				female = {
+				    5 = female_headgear_secular_mena_common_01	
+                    5 = female_headgear_secular_mena_common_02
+				}
+				boy = male
+				girl = female
+			}	
+
+			maghreb_high_nobility = {
+				index = 201
+				male = {
+                    4 = male_maghreb_high_noble_01	
+                    4 = male_headgear_epe_berber_tagelmust_01_high
+                    4 = male_headgear_epe_berber_tagelmust_02_high	
+                    4 = male_headgear_epe_berber_tagelmust_03_high		
+                    4 = male_headgear_epe_berber_tagelmust_04_high					
+				    3 = male_headgear_epe_berber_tagelmust_01_high_white	
+				    3 = male_headgear_epe_berber_tagelmust_02_high_white	
+				    3 = male_headgear_epe_berber_tagelmust_03_high_white
+				    3 = male_headgear_epe_berber_tagelmust_04_high_white					
+                    3 = male_headgear_secular_mena_high_nobility_01					
+			    	2 = male_headgear_secular_dde_abbasid_common_01		
+                    5 = male_headgear_epe_maghreb_high_01	
+				    3 = male_headgear_epe_white_mena_high_01
+			     	2 = male_headgear_epe_white_mena_high_02
+			    	3 = male_headgear_epe_white_mena_nobility_02	
+			    	2 = male_headgear_epe_white_mena_nobility_03
+				    ##Fp2
+				   10 = male_headgear_epe_fp2_iberian_muslim_high_nobility_01_white					
+				   10 = male_headgear_epe_fp2_iberian_muslim_nobility_01_white				
+				}
+				female = {
+			        5 = female_headgear_epe_maghreb_high_01
+				    ##Fp2				
+                    5 = female_headgear_epe_maghreb_high_02
+                    5 = female_headgear_epe_fp2_iberian_muslim_high_nobility_01_white			
+				}
+				boy = male
+				girl = female
+			}
+
+			maghreb_royalty = {
+				index = 202
+				male = {		
+				    1 = male_headgear_secular_mena_royalty_01
+				    1 = male_headgear_epe_white_mena_royal_01
+				    ##Fp2					
+				    1 = male_headgear_epe_fp2_maghreb_royalty_01								
+				}
+				female = {
+					1 = female_maghreb_royalty_01							
+				}
+				boy = male
+				girl = female
+			}
+
+			maghreb_imperial = {
+				index = 203
+				male = {			
+				    1 = male_headgear_secular_mena_royalty_01
+				    1 = male_headgear_epe_white_mena_royal_01
+				    ##Fp2					
+				    1 = male_headgear_epe_fp2_maghreb_royalty_01											
+				}
+				female = {
+					1 = female_maghreb_royalty_01											
+				}
+				boy = male
+				girl = female
+			}			
+
+			maghreb_war = {
+				index = 204
+				male = {
+				    1 = m_headgear_sec_mena_war_nob_01_lo
+				    1 = m_headgear_sec_crusades_mena_war_nob_01_lo
+                    4 = male_maghreb_high_noble_01					
+				    4 = male_headgear_epe_berber_tagelmust_01_low	
+				    4 = male_headgear_epe_berber_tagelmust_02_low	
+				    4 = male_headgear_epe_berber_tagelmust_03_low	
+				    4 = male_headgear_epe_berber_tagelmust_04_low				
+				    1 = male_headgear_epe_berber_tagelmust_01_high_white
+				    1 = male_headgear_epe_berber_tagelmust_02_high_white
+				    1 = male_headgear_epe_berber_tagelmust_03_high_white
+				    1 = male_headgear_epe_berber_tagelmust_04_high_white				
+				}
+				female = {
+					1 = f_headgear_sec_mena_war_nob_01_lo
+					1 = f_headgear_sec_crusades_mena_war_nob_01_lo
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###Early Islamic Iranian 
+			##################
+			####################################################################################################
+	
+			early_islamic_iranian_common = {
+				index = 205
+				male = {
+				    5 = empty				
+				    3 = male_headgear_secular_iranian_qalansuwwa_01_common			
+				    1 = male_headgear_secular_iranian_qalansuwwa_01_hair_common
+				    3 = male_headgear_all_era_iranian_qub_01_commoner
+				    3 = male_secular_arabic_qub_cap_02
+				    2 = male_secular_arabic_qayah_qub_cap_01
+			    	2 = male_headgear_secular_mena_common_01
+			    	2 = male_headgear_secular_dde_abbasid_common_01
+			    	2 = male_headgear_secular_dde_abbasid_common_02
+			    	1 = male_headgear_epe_white_abbasid_common_01
+			    	1 = male_headgear_epe_white_mena_common_01
+			    	3 = male_headgear_epe_white_mena_nobility_02	
+			    	3 = male_headgear_epe_white_mena_nobility_03											
+				}
+				female = {					
+				    2 = female_headgear_iranian_qub_01_common			
+				    5 = female_headgear_iranian_veil_01_common						
+			    	5 = female_headgear_iranian_veil_02_common				
+                    5 = female_headgear_iranian_veil_03_common
+                    5 = female_headgear_iranian_veil_04_common
+			    	5 = female_headgear_secular_mena_common_01
+			    	5 = female_headgear_secular_mena_common_02
+			    	5 = female_headgear_secular_dde_abbasid_common_01				
+				}
+				boy = male
+				girl = female
+			}	
+
+			early_islamic_iranian_low_nobility = {
+				index = 206
+				male = {						
+					3 = m_headgear_sec_fp3_islamic_iranian_nob_01_low					
+				    3 = male_headgear_secular_iranian_qalansuwwa_01_low					
+				    1 = male_headgear_secular_iranian_qalansuwwa_01_hair_low
+				    3 = male_headgear_secular_iranian_qalansuwwa_03_low			
+			    	3 = male_headgear_secular_iranian_qalansuwwa_04_low	
+			    	3 = male_headgear_secular_iranian_qalansuwwa_05_low	
+		    		3 = male_headgear_secular_iranian_qalansuwwa_06_low	
+			    	3 = male_headgear_all_era_iranian_qub_01_low
+			    	1 = male_headgear_epe_white_mena_nobility_01
+			    	3 = male_headgear_epe_white_mena_nobility_02	
+			    	3 = male_headgear_epe_white_mena_nobility_03					
+				}
+				female = {
+                    10 = f_headgear_sec_fp3_early_iranian_nob_01_lo				
+                    10 = f_headgear_sec_fp3_early_iranian_nob_02_lo				
+                    5 = female_early_islamic_iranian_veil_01_low				
+                    5 = female_early_islamic_iranian_veil_02_low
+                    5 = female_headgear_iranian_veil_03_low
+				}
+				boy = male
+				girl = female
+			}	
+
+			early_islamic_iranian_high_nobility = {
+				index = 207
+				male = {							
+					3 = m_headgear_sec_fp3_islamic_iranian_nob_01
+					3 = m_headgear_sec_fp3_islamic_iranian_nob_02							
+				    3 = male_headgear_secular_iranian_qalansuwwa_01_high
+				    1 = male_headgear_secular_iranian_qalansuwwa_01_hair_high			
+				    3 = male_headgear_secular_iranian_qalansuwwa_03_high
+			    	3 = male_headgear_secular_iranian_qalansuwwa_04_high				
+			    	3 = male_headgear_secular_iranian_qalansuwwa_05_high
+			    	3 = male_headgear_secular_iranian_qalansuwwa_06_high
+                    3 = male_headgear_epe_iranian_high_01
+			    	1 = male_headgear_epe_white_mena_high_01
+				    1 = male_headgear_epe_white_mena_high_02
+			    	1 = male_headgear_epe_white_mena_nobility_02	
+			    	1 = male_headgear_epe_white_mena_nobility_03		
+				}
+				female = {
+                    3 = f_headgear_sec_fp3_early_iranian_nob_01_hi				
+                    3 = f_headgear_sec_fp3_early_iranian_nob_02_hi					
+                    2 = female_early_islamic_iranian_veil_01_high	
+                    2 = female_early_islamic_iranian_veil_02_high			
+				}
+				boy = male
+				girl = female
+			}
+
+			early_islamic_iranian_royalty = {
+				index = 208
+				male = {		
+				    1 = male_early_iranian_royal_crown_early_01
+				    1 = male_early_iranian_royal_crown_early_02						
+				}
+				female = {	
+				    1 = female_headgear_iranian_royal_01_royal
+				    1 = female_headgear_iranian_royal_02
+				}
+				boy = male
+				girl = female
+			}
+
+			early_islamic_iranian_imperial = {
+				index = 209
+				male = {		
+				    1 = male_early_iranian_royal_crown_early_01
+				    1 = male_early_iranian_royal_crown_early_02						
+				}
+				female = {	
+				    1 = female_headgear_iranian_royal_01_royal
+				    1 = female_headgear_iranian_royal_02
+				}
+				boy = male
+				girl = female
+			}			
+
+			early_islamic_iranian_war = {
+				index = 210
+				male = {
+				    3 = male_secular_iranian_early_conical_helmet_01
+				    3 = male_secular_Iranian_Samanid_Nasal_Helmet_Crest_01		
+				    3 = male_secular_Iranian_Samanid_Nasal_Helmet_Crest_02
+				    3 = male_secular_Iranian_Early_North_Nasal_Helmet_Crest_01		
+				    3 = male_secular_Iranian_Early_North_Nasal_Helmet_Crest_02				
+				}
+				female = {
+				    3 = female_secular_iranian_early_conical_helmet_01
+				    3 = female_secular_Iranian_Samanid_Nasal_Helmet_Crest_01		
+			    	3 = female_secular_Iranian_Samanid_Nasal_Helmet_Crest_02
+				    3 = female_secular_Iranian_Early_North_Nasal_Helmet_Crest_01		
+				    3 = female_secular_Iranian_Early_North_Nasal_Helmet_Crest_02					
+				}
+				boy = male
+				girl = female
+			}
+
+			early_islamic_iranian_war_closed = {
+				index = 211
+				male = {
+				    1 = male_Iranian_Samanid_Nasal_Helmet_02		
+			    	1 = male_Iranian_Samanid_Nasal_Helmet_02_02	
+			    	1 = male_Iranian_Early_North_Nasal_Helmet_02		
+			    	1 = male_Iranian_Early_North_Nasal_Helmet_02_02	
+			    	1 = male_Iranian_Samanid_Nasal_Helmet_03		
+				    1 = male_Iranian_Samanid_Nasal_Helmet_03_02		
+			    	1 = male_Iranian_Early_North_Nasal_Helmet_03		
+			    	1 = male_Iranian_Early_North_Nasal_Helmet_03_02				
+				}
+				female = {
+				    1 = female_Iranian_Samanid_Nasal_Helmet_02		
+				    1 = female_Iranian_Samanid_Nasal_Helmet_02_02	
+				    1 = female_Iranian_Early_North_Helmet_02		
+				    1 = female_Iranian_Early_North_Helmet_02_02					
+				}
+				boy = male
+				girl = female
+			}
+
+
+			####################################################################################################
+			##################
+			### High medieval Islamic Iranian Era 2-3
+			##################
+			####################################################################################################
+	
+			islamic_iranian_common = {
+				index = 212
+				male = {
+				    5 = empty		
+				   10 = male_headgear_all_era_iranian_qub_01_commoner
+				   10 = male_secular_arabic_qub_cap_02				
+				   10 = male_headgear_secular_mena_common_01
+				   10 = male_headgear_secular_dde_abbasid_common_02
+				   10 = male_headgear_epe_white_mena_common_01
+				   10 = male_headgear_epe_white_mena_nobility_02	
+				   10 = male_headgear_epe_white_mena_nobility_03											
+				}
+				female = {
+				    5 = female_headgear_iranian_veil_01_common						
+				    5 = female_headgear_iranian_veil_02_common							
+                    5 = female_headgear_iranian_veil_03_common
+                    5 = female_headgear_iranian_veil_04_common			
+				    5 = female_headgear_secular_mena_common_01
+				    5 = female_headgear_secular_mena_common_02
+				    5 = female_headgear_secular_dde_abbasid_common_01				
+				}
+				boy = male
+				girl = female
+			}	
+
+			islamic_iranian_low_nobility = {
+				index = 213
+				male = {						
+					10 = male_headgear_era2_iranian_qub_01_low	
+                   10 = male_headgear_epe_mena_low_01
+				   10 = male_headgear_epe_white_mena_nobility_01
+				    5 = male_headgear_epe_white_mena_nobility_02	
+			    	5 = male_headgear_epe_white_mena_nobility_03						
+				}
+				female = {
+                    3 = f_headgear_sec_fp3_high_iranian_nob_01_lo				
+                    3 = f_headgear_sec_fp3_high_iranian_nob_02_lo					
+                    1 = female_headgear_iranian_veil_01_low				
+                    1 = female_headgear_iranian_veil_02_low
+                    1 = female_high_medieval_islamic_iranian_veil_01_low				
+                    1 = female_high_medieval_islamic_iranian_veil_02_low						
+				}
+				boy = male
+				girl = female
+			}	
+
+			islamic_iranian_high_nobility = {
+				index = 214
+				male = {
+					#5 = m_headgear_sec_fp3_iranian_nob_02 #CFP+EPE addition
+			    	2 = male_headgear_epe_white_mena_high_01
+				    2 = male_headgear_epe_white_mena_high_02
+				    5 = male_headgear_epe_white_mena_nobility_03			
+				}
+				female = {
+                    5 = f_headgear_sec_fp3_high_iranian_nob_01_hi				
+                    5 = f_headgear_sec_fp3_high_iranian_nob_02_hi					
+                    5 = female_headgear_epe_muslim_iranian_01_high
+                    5 = female_high_medieval_islamic_iranian_veil_01_high
+                    5 = female_high_medieval_islamic_iranian_veil_02_high		
+				}
+				boy = male
+				girl = female
+			}
+
+			islamic_iranian_royalty = {
+				index = 215
+				male = {		
+					1 = male_headgear_epe_white_mena_royal_01				
+				}
+				female = {	
+				    1 = female_headgear_epe_muslim_iranian_royal_01
+				    1 = female_headgear_epe_muslim_iranian_royal_02
+				    1 = female_headgear_epe_muslim_iranian_royal_03						
+				}
+				boy = male
+				girl = female
+			}
+
+			islamic_iranian_imperial = {
+				index = 216
+				male = {			
+				    1 = male_seljuk_royal_crown_01			
+				}
+				female = {
+				    1 = female_headgear_epe_muslim_iranian_royal_01
+				    1 = female_headgear_epe_muslim_iranian_royal_02
+				    1 = female_headgear_epe_muslim_iranian_royal_03												
+				}
+				boy = male
+				girl = female
+			}			
+
+			islamic_iranian_war = {
+				index = 217
+				male = {
+					1 = m_headgear_sec_mena_war_nob_01_lo
+					1 = m_headgear_sec_crusades_mena_war_nob_01_lo
+					1 = m_headgear_sec_mena_war_nob_01_hi
+					1 = m_headgear_sec_crusades_mena_war_nob_01_hi			
+				    1 = male_Seljuk_Warrior_Helmet_01
+				    1 = male_Seljuk_Warrior_Helmet_02
+				    1 = male_seljuk_war_helmet_03	
+				    1 = male_seljuk_war_helmet_04				
+				}
+				female = {
+					1 = f_headgear_sec_mena_war_nob_01_lo
+					1 = f_headgear_sec_crusades_mena_war_nob_01_lo
+					1 = f_headgear_sec_mena_war_nob_01_hi
+					1 = f_headgear_sec_crusades_mena_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}			
+
+			####################################################################################################
+			##################
+			###Western Iranian non-muslim
+			##################
+			####################################################################################################
+	
+			Western_iranian_commoner = {
+				index = 218
+				male = {			
+				    3 = empty				
+					3 = male_headgear_western_iranian_qub_01_commoner
+				    5 = male_headgear_secular_sogdian_headband_01_common	
+				    5 = male_headgear_secular_sogdian_headband_01_common_plane												
+				}
+				female = {							
+				    5 = empty				
+				    # 5 = female_headgear_iranian_qub_01_common				
+				    # 5 = female_headgear_iranian_qub_03_common
+					# 5 = female_headgear_iranian_veil_01_common						
+					# 5 = female_headgear_iranian_veil_02_common				
+                    # 5 = female_headgear_iranian_veil_03_common
+                    # 5 = female_headgear_iranian_veil_04_common
+					5 = female_headgear_western_iranian_qub_01a_common
+				    5 = female_headgear_secular_mena_common_01
+				    5 = female_headgear_secular_mena_common_02
+				    5 = female_headgear_secular_dde_abbasid_common_01				
+				}
+				boy = male
+				girl = female
+			}	
+
+			Western_iranian_low_nobility = {
+				index = 219
+				male = {											
+					10 = male_headgear_secular_sogdian_headband_01_low	
+					10 = male_non_islamic_iranian_bulb_03_low				
+					10 = male_non_islamic_iranian_bulb_02_low	
+					10 = male_non_islamic_iranian_bulb_02_white	
+					10 = male_non_islamic_iranian_bulb_03_white						
+				}
+				female = {			
+                    5 = female_non_islamic_iranian_high_hairstyle_01
+				    5 = female_eastern_iranian_veil_01_low				
+				    5 = female_eastern_iranian_veil_02_low		
+                    5 = female_headgear_iranian_veil_03_low
+				}
+				boy = male
+				girl = female
+			}	
+
+			Western_iranian_high_nobility = {
+				index = 220
+				male = {							
+				    3 = male_non_islamic_iranian_bulb_01_high
+				    3 = male_non_islamic_iranian_bulb_01_high_color			
+				    3 = male_non_islamic_iranian_bulb_02_high
+				    1 = male_non_islamic_iranian_bulb_01_white		
+				}
+				female = {
+                    1 = female_non_islamic_iranian_high_01
+                    1 = female_non_islamic_iranian_high_hairstyle_01	
+				    1 = female_eastern_iranian_veil_01_high			
+				    1 = female_eastern_iranian_veil_02_high				
+			 	}
+				boy = male
+				girl = female
+			}
+
+			Western_iranian_royalty = {
+				index = 221
+				male = {		
+                    1 = iranian_royal_crown_zoroastrian_male_01
+                    1 = iranian_royal_crown_zoroastrian_male_02
+				    1 = male_persian_crown_01					
+				}
+				female = {	
+				    1 = iranian_royal_crown_zoroastrian_female_01_hair1		
+				    1 = iranian_royal_crown_zoroastrian_female_01_hair2	
+			    	1 = iranian_royal_crown_zoroastrian_female_02_hair1	
+			    	1 = iranian_royal_crown_zoroastrian_female_02_hair2		
+			    	1 = female_persian_crown_01					
+				}
+				boy = male
+				girl = female
+			}
+
+			Western_iranian_imperial = {
+				index = 222
+				male = {		
+                    1 = iranian_imperial_crown_zoroastrian_male_01
+                    1 = iranian_imperial_crown_zoroastrian_male_02
+                    1 = iranian_imperial_crown_zoroastrian_male_03
+                    1 = iranian_imperial_crown_zoroastrian_male_04						
+				}
+				female = {	
+				    1 = iranian_imperial_crown_zoroastrian_female_01				
+				}
+				boy = male
+				girl = female
+			}
+
+			Western_iranian_imperial_consort = {
+				index = 223
+				male = {		
+				    1 = iranian_royal_crown_zoroastrian_male_01
+				    1 = iranian_royal_crown_zoroastrian_male_02						
+				}
+				female = {	
+				    1 = imperial_consort_crown_zoroastrian_female_01					
+				}
+				boy = male
+				girl = female
+			}			
+
+			Western_iranian_war = {
+				index = 224
+				male = {
+				    2 = male_secular_iranian_early_conical_helmet_01
+				    2 = male_secular_Iranian_Early_North_Nasal_Helmet_Crest_01		
+				    2 = male_secular_Iranian_Early_North_Nasal_Helmet_Crest_02	
+				    1 = male_secular_Iranian_Samanid_Nasal_Helmet_Crest_01		
+				    1 = male_secular_Iranian_Samanid_Nasal_Helmet_Crest_02						
+				}
+				female = {
+				    3 = female_secular_iranian_early_conical_helmet_01
+				    3 = female_secular_Iranian_Samanid_Nasal_Helmet_Crest_01		
+			    	3 = female_secular_Iranian_Samanid_Nasal_Helmet_Crest_02
+				    3 = female_secular_Iranian_Early_North_Nasal_Helmet_Crest_01		
+				    3 = female_secular_Iranian_Early_North_Nasal_Helmet_Crest_02						
+				}
+				boy = male
+				girl = female
+			}
+
+			Western_iranian_war_closed = {
+				index = 225
+				male = {	
+			    	1 = male_Iranian_Samanid_Nasal_Helmet_02		
+			    	1 = male_Iranian_Samanid_Nasal_Helmet_02_02	
+			    	1 = male_Iranian_Early_North_Nasal_Helmet_02		
+			    	1 = male_Iranian_Early_North_Nasal_Helmet_02_02	
+			    	1 = male_Iranian_Samanid_Nasal_Helmet_03		
+			    	1 = male_Iranian_Samanid_Nasal_Helmet_03_02		
+			    	1 = male_Iranian_Early_North_Nasal_Helmet_03		
+			    	1 = male_Iranian_Early_North_Nasal_Helmet_03_02			
+				}
+				female = {	
+				    1 = female_Iranian_Samanid_Nasal_Helmet_02		
+				    1 = female_Iranian_Samanid_Nasal_Helmet_02_02	
+			     	1 = female_Iranian_Early_North_Helmet_02		
+			     	1 = female_Iranian_Early_North_Helmet_02_02				
+				}
+				boy = male
+				girl = female
+			}
+			
+			####################################################################################################
+			##################
+			###Han Chinese
+			##################
+			####################################################################################################
+
+			han_chinese_common = {
+				index = 226
+				male = {
+					5 = empty
+					5 = male_headgear_secular_chinese_nobility_01
+					# 5 = male_headgear_secular_chinese_nobility_02	
+					# 5 = male_headgear_secular_chinese_nobility_03				
+				}
+				female = {
+					5 = empty
+					# 5 = female_headgear_secular_steppe_common_01					
+				}
+				boy = male
+				girl = female
+			}	
+
+			han_chinese_low_nobility = {
+				index = 227
+				male = {
+					5 = male_headgear_secular_chinese_nobility_01
+					5 = male_headgear_secular_chinese_nobility_02	
+					5 = male_headgear_secular_chinese_nobility_03	
+					5 = male_headgear_secular_chinese_nobility_04	
+					5 = male_headgear_secular_chinese_nobility_05		
+					5 = male_headgear_secular_chinese_nobility_06					
+				}
+				female = {
+					5 = empty
+					
+				}
+				boy = male
+				girl = female
+			}	
+
+			han_chinese_high_nobility = {
+				index = 228
+				male = {
+                    1 = male_headgear_secular_chinese_high_nobility_01
+                    1 = male_headgear_secular_chinese_high_nobility_02		
+				}
+				female = {
+                    1 = female_headgear_secular_chinese_nobility_01
+                    1 = female_headgear_secular_chinese_nobility_01a			
+                    1 = female_headgear_secular_chinese_nobility_01b
+				}
+				boy = male
+				girl = female
+			}
+
+			han_chinese_royalty = {
+				index = 229
+				male = {
+					1 = male_headgear_secular_chinese_royalty_01					
+				}
+				female = {
+                    1 = female_headgear_secular_chinese_nobility_01
+                    1 = female_headgear_secular_chinese_nobility_01a			
+                    1 = female_headgear_secular_chinese_nobility_01b				
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			han_chinese_imperial = {
+				index = 230
+				male = {		
+					1 = male_headgear_secular_chinese_imperial_01						
+				}
+				female = {
+                    1 = female_headgear_secular_chinese_nobility_01
+                    1 = female_headgear_secular_chinese_nobility_01a			
+                    1 = female_headgear_secular_chinese_nobility_01b				
+				}
+				boy = male
+				girl = female
+			}			
+
+			han_chinese_war = {
+				index = 231
+				male = {
+					1 = m_headgear_sec_chin_war_nob_01_lo
+					1 = m_headgear_sec_chin_war_nob_01_hi
+					
+				}
+				female = {
+					1 = f_headgear_sec_chin_war_nob_01_lo
+					1 = f_headgear_sec_chin_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###Uyghur
+			##################
+			####################################################################################################
+
+			uyghur_common = {
+				index = 232
+				male = {
+					5 = male_headgear_secular_steppe_common_01
+					5 = male_Turkic_Fur_Cap_01
+					5 = male_Turkic_Fur_Cap_02	
+					5 = male_Turkic_Fur_Cap_03
+					5 = male_Turkic_Fur_Cap_04	
+					5 = male_Turkic_Fur_Cap_05											
+				}
+				female = {
+					5 = empty
+					5 = female_headgear_secular_steppe_common_01					
+				}
+				boy = male
+				girl = female
+			}	
+
+			uyghur_low_nobility = {
+				index = 233
+				male = {
+					5 = male_headgear_secular_steppe_common_01
+					5 = male_Turkic_Fur_Cap_01
+					5 = male_Turkic_Fur_Cap_02	
+					5 = male_Turkic_Fur_Cap_03
+					5 = male_Turkic_Fur_Cap_04	
+                    5 = male_Turkic_Fur_Cap_05						
+				}
+				female = {
+					5 = empty
+					
+				}
+				boy = male
+				girl = female
+			}	
+
+			uyghur_high_nobility = {
+				index = 234
+				male = {
+					1 = male_Turkic_Fur_Cap_04	
+					1 = male_Turkic_Fur_Cap_05	
+					1 = male_headgear_secular_steppe_nobility_01
+					3 = male_Uyghur_Noble_Headwear_01	
+				}
+				female = {
+                    1 = female_headgear_secular_chinese_nobility_01
+                    1 = female_headgear_secular_chinese_nobility_01a			
+                    1 = female_headgear_secular_chinese_nobility_01b
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_royalty = {
+				index = 235
+				male = {
+					1 = male_Uyghur_Royal_Headwear_01			
+					1 = male_Uyghur_Noble_Headwear_01									
+				}
+				female = {
+					1 = Female_Khanum_Headress_01_uyghur
+					1 = Female_Khanum_Headress_02_uyghur								
+				}
+				boy = male
+				girl = female
+			}
+
+			uyghur_imperial = {
+				index = 236
+				male = {		
+					3 = male_Uyghur_Royal_Headwear_01								
+					
+				}
+				female = {
+					1 = Female_Khanum_Headress_01_uyghur
+					1 = Female_Khanum_Headress_02_uyghur				
+					
+				}
+				boy = male
+				girl = female
+			}			
+
+			uyghur_war = {
+				index = 237
+				male = {
+					1 = m_headgear_sec_uyghur_war_nob_01_lo
+					1 = m_headgear_sec_uyghur_war_nob_02_lo					
+					1 = m_headgear_sec_uyghur_war_nob_01_hi
+					1 = m_headgear_sec_uyghur_war_nob_02_hi					
+				}
+				female = {
+					1 = f_headgear_sec_uyghur_war_nob_01_lo
+					1 = f_headgear_sec_uyghur_war_nob_02_lo					
+					1 = f_headgear_sec_uyghur_war_nob_01_hi
+					1 = f_headgear_sec_uyghur_war_nob_02_hi					
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			###Brythonic/Welsh
+			##################
+			####################################################################################################
+
+			brythonic_common = {
+				index = 238
+				male = {		
+				    1 = empty
+				    2 = male_headgear_secular_northern_common_01
+				    2 = male_norse_pannonian_cap_01	
+				    1 = male_norse_phrygian_cap_01	
+				    1 = male_norse_phrygian_cap_02	
+				    1 = male_norse_phrygian_cap_03	
+				}
+				female = {
+				    1 = empty
+				    1 = female_headgear_secular_northern_common_01		
+				}
+				boy = male
+				girl = female
+			}	
+
+			brythonic_low_nobility = {
+				index = 239
+				male = {
+				    5 = male_celtic_leather_headband_01	
+				    5 = male_celtic_leather_headband_02
+				    3 = male_gaelic_low_noble_circlet_04
+				    3 = male_gaelic_low_noble_circlet_05
+				    1 = male_Circlets_Western_Small_Leather_Pearls
+                    1 = male_Circlets_Western_Small_Leather_Pearls_02
+                    1 = male_Circlets_Western_Small_Leather_Pearls_03
+				}
+				female = {
+				    3 = female_celtic_leather_headband_01	
+				    3 = female_celtic_leather_headband_02
+                    2 = female_Circlets_Western_Small_Leather_Pearls					
+                    2 = female_Circlets_Western_Small_Leather_Pearls_02
+                    2 = female_Circlets_Western_Small_Leather_Pearls_03
+				    3 = female_gaelic_low_noble_circlet_04
+				    3 = female_gaelic_low_noble_circlet_05	
+				}
+				boy = male
+				girl = female
+			}	
+
+			brythonic_high_nobility = {
+				index = 240
+				male = {
+				    2 = male_gaelic_high_noble_circlet_01
+                    2 = male_gaelic_high_noble_circlet_02
+				}
+				female = {
+				    2 = female_gaelic_high_noble_circlet_01
+                    2 = female_gaelic_high_noble_circlet_02
+				}
+				boy = male
+				girl = female
+			}
+
+			brythonic_royalty = {
+				index = 241
+				male = {
+                    2 = male_gaelic_royal_crown_01
+				    2 = male_gaelic_royal_crown_02	
+				}
+				female = {	
+                    2 = female_gaelic_royal_crown_01
+				    2 = female_gaelic_royal_crown_02								
+				}
+				boy = male
+				girl = female
+			}
+
+			brythonic_imperial = {
+				index = 242
+				male = {
+					2 = male_gaelic_imperial_crown_01
+
+				}
+				female = {
+					2 = female_gaelic_imperial_crown_01		
+							
+				}
+				boy = male
+				girl = female
+			}			
+
+			brythonic_war = {
+				index = 243
+				male = {
+					1 = m_headgear_sec_northern_war_nob_01_lo
+					1 = m_headgear_sec_northern_war_nob_01_hi
+				
+					}
+				female = {
+					1 = f_headgear_sec_northern_war_nob_01_lo
+					1 = f_headgear_sec_northern_war_nob_01_hi
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			fp3_iranian_commoner = { ##EPE-Eastern non islamic Iranian
+				index = 244
+				male = {
+					3 = empty			
+					5 = male_headgear_secular_sogdian_cap_01_common			
+					3 = male_headgear_eastern_iranian_qub_01_commoner
+					5 = male_headgear_secular_sogdian_headband_01_common	
+					5 = male_headgear_secular_sogdian_headband_01_common_plane		
+				}
+				female = {
+					5 = empty				
+					5 = female_headgear_eastern_iranian_qub_01a_common			
+					5 = female_headgear_secular_sogdian_headband_01_common									
+				}
+				boy = male
+				girl = female
+			}
+
+			####################################################################################################
+			##################
+			### Late Islamic Iranian Era 4
+			##################
+			####################################################################################################
+
+			late_islamic_iranian_common = {
+				index = 245
+				male = {
+					5 = empty		
+					10 = male_headgear_all_era_iranian_qub_01_commoner
+					10 = male_secular_arabic_qub_cap_02				
+					10 = male_headgear_secular_mena_common_01
+					10 = male_headgear_secular_dde_abbasid_common_02
+					10 = male_headgear_epe_white_mena_common_01
+					10 = male_headgear_epe_white_mena_nobility_02	
+					10 = male_headgear_epe_white_mena_nobility_03											
+				}
+				female = {
+					5 = female_headgear_iranian_veil_01_common						
+					5 = female_headgear_iranian_veil_02_common							
+					5 = female_headgear_iranian_veil_03_common
+					5 = female_headgear_iranian_veil_04_common			
+					5 = female_headgear_secular_mena_common_01
+					5 = female_headgear_secular_mena_common_02
+					5 = female_headgear_secular_dde_abbasid_common_01				
+				}
+				boy = male
+				girl = female
+			}	
+
+			late_islamic_iranian_low_nobility = {
+				index = 246
+				male = {						
+					10 = male_headgear_epe_mena_low_01
+					10 = male_headgear_epe_white_mena_nobility_01
+					5 = male_headgear_epe_white_mena_nobility_02	
+					5 = male_headgear_epe_white_mena_nobility_03						
+				}
+				female = {
+					4 = f_headgear_sec_fp3_late_iranian_nob_01_lo	
+					4 = f_headgear_sec_fp3_late_iranian_nob_02_lo				
+					1 = female_headgear_iranian_veil_01_low				
+					1 = female_headgear_iranian_veil_02_low
+					1 = female_high_medieval_islamic_iranian_veil_01_low				
+					1 = female_high_medieval_islamic_iranian_veil_02_low						
+				}
+				boy = male
+				girl = female
+			}	
+
+			late_islamic_iranian_high_nobility = {
+				index = 247
+				male = {
+					2 = male_headgear_epe_white_mena_high_01
+					2 = male_headgear_epe_white_mena_high_02
+					5 = male_headgear_epe_white_mena_nobility_02	
+					5 = male_headgear_epe_white_mena_nobility_03			
+				}
+				female = {
+					6 = f_headgear_sec_fp3_late_iranian_nob_01_hi	
+					6 = f_headgear_sec_fp3_late_iranian_nob_02_hi				
+					5 = female_headgear_epe_late_islamic_iranian_01_high
+					5 = female_headgear_epe_late_islamic_iranian_02_high
+					5 = female_headgear_epe_late_islamic_iranian_03_high		
+				}
+				boy = male
+				girl = female
+			}
+
+			late_islamic_iranian_royalty = {
+				index = 248
+				male = {		
+					1 = male_headgear_epe_white_mena_royal_01
+					1 = male_headgear_epe_white_ep1_mena_royalty_02							
+				}
+				female = {	
+					1 = female_headgear_epe_late_islamic_iranian_01_royal
+					1 = female_headgear_epe_late_islamic_iranian_02_royal
+					1 = female_headgear_epe_late_islamic_iranian_03_royal						
+				}
+				boy = male
+				girl = female
+			}
+
+			late_islamic_iranian_imperial = {
+				index = 249
+				male = {			
+					1 = male_headgear_epe_white_mena_imperial_01												
+				}
+				female = {
+					1 = female_headgear_epe_late_islamic_iranian_01_royal
+					1 = female_headgear_epe_late_islamic_iranian_02_royal
+					1 = female_headgear_epe_late_islamic_iranian_03_royal											
+				}
+				boy = male
+				girl = female
+			}				
+					
+			########################################
+			## Community Flavor Pack - new groups ##
+			########################################
+
+			# North
+			
+			cfp_norse_war = {
+				index = 250
+				male = {
+					1 = male_headgear_secular_northern_war_viking_01
+					1 = male_headgear_secular_northern_war_viking_02
+					1 = male_headgear_secular_northern_war_viking_03
+					1 = male_headgear_secular_northern_war_viking_04
+				}
+				female = {
+					1 = female_headgear_secular_northern_war_viking_01
+					1 = female_headgear_secular_northern_war_viking_02
+					1 = female_headgear_secular_northern_war_viking_03
+					1 = female_headgear_secular_northern_war_viking_04
+				}
+				boy = male
+				girl = female
+			}
+
+			# Greek
+			
+			cfp_hungarian_royalty = {
+				index = 251
+				male = {
+					1 = male_headgear_secular_hungarian_royalty_01
+				}
+				female = {
+					1 = female_headgear_secular_hungarian_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			# Iberian
+			
+			cfp_iberian_common = {
+				index = 252
+				male = {
+					1 = male_headgear_secular_iberian_cfp_bonnet_common_01
+				}
+				female = {
+					1 = female_headgear_secular_iberian_cfp_bonnet_common_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_iberian_low_nobility = {
+				index = 253
+				male = {
+					1 = male_headgear_secular_iberian_cfp_bonnet_low_01
+				}
+				female = {
+					1 = female_headgear_secular_iberian_cfp_bonnet_low_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			cfp_iberian_high_nobility = {
+				index = 254
+				male = {
+					1 = male_headgear_secular_iberian_cfp_bonnet_high_01
+				}
+				female = {
+					1 = female_headgear_secular_iberian_cfp_bonnet_high_01
+				}
+				boy = male
+				girl = female
+			}
+
+		}
+					
+		secondary_headgears = {
+			no_headgear = {
+				index = 0
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			western_wedding = {
+				index = 1
+				male = {
+					1 = m_headgear_spec_ep2_western_wedding
+				}
+				female = {
+					1 = f_headgear_spec_ep2_western_wedding
+				}
+				boy = male
+				girl = female
+			}
+			mena_wedding = {
+				index = 2
+				male = {
+					1 = m_headgear_spec_ep2_mena_wedding
+				}
+				female = {
+					1 = f_headgear_spec_ep2_mena_wedding
+				}
+				boy = male
+				girl = female
+			}
+			byzantine_wedding = {
+				index = 3
+				male = {
+					1 = m_headgear_spec_ep2_byzantine_wedding
+				}
+				female = {
+					1 = f_headgear_spec_ep2_byzantine_wedding
+				}
+				boy = male
+				girl = female
+			}
+			coa_crest = {
+				index = 4
+				male = {
+					1 = m_headgear_sec_ep2_western_war_nob_crest_01
+				}
+				female = {
+					1 = f_headgear_sec_ep2_western_war_nob_crest_01
+				}
+				boy = male
+				girl = female
+			}
+			####spy master			
+			epe_spymaster_headgears = {
+				index = 5
+				male = {
+					1 = male_epe_western_spy_master_hood    ##Western
+					1 = male_headgear_epe_mena_spy_master_01	##Mena				
+				}
+				female = {
+					1 = female_epe_western_spy_master_hood
+					1 = female_headgear_epe_mena_spy_master_01					
+				}
+				boy = male
+				girl = female
+			}			
+		}
+		# Additive headgear are used in combination with other headgear. Usually crowns worn over veils, or crowns on helmets
+		additive_headgear = {
+			no_additive = {
+				index = 0
+				male = {
+				}
+				female = {
+				}
+				boy = male
+				girl = female
+			}
+			western_veils = {
+				index = 1
+				male = {
+				}
+				female = {
+					20 = empty
+					10 = female_headgear_secular_western_nobility_01
+					10 = female_headgear_secular_western_nobility_01_2
+					10 = female_headgear_secular_western_nobility_02
+					10 = female_headgear_secular_western_nobility_03
+				}
+				boy = male
+				girl = female
+			}
+			ep2_western_era1_veils = {
+				index = 2
+				male = {
+				
+				}
+				female = {
+					20 = empty
+					# 10 = f_headgear_sec_ep2_western_era1_com_01
+					# 10 = f_headgear_sec_ep2_western_era1_com_02
+					# 10 = f_headgear_sec_ep2_western_era1_nob_01
+					# 10 = f_headgear_sec_ep2_western_era1_nob_02
+				}
+				boy = male
+				girl = female				
+			}
+			ep2_western_era2_veils = {
+				index = 3
+				male = {
+				
+				}
+				female = {
+					30 = empty
+					# 10 = female_headgear_secular_western_nobility_01
+					# 10 = female_headgear_secular_western_nobility_01_2
+					# 10 = female_headgear_secular_western_nobility_02
+					# 10 = female_headgear_secular_western_nobility_03
+				}
+				boy = male
+				girl = female				
+			}
+			ep2_western_era3_veils = {
+				index = 4
+				male = {
+				
+				}
+				female = {
+					30 = empty
+					10 = female_headgear_secular_western_nobility_01
+					10 = female_headgear_secular_western_nobility_01_2
+					10 = female_headgear_secular_western_nobility_02
+					10 = female_headgear_secular_western_nobility_03
+					10 = female_headgear_secular_dde_hre_common_01
+					10 = female_headgear_secular_dde_hre_common_02
+					30 = f_headgear_sec_sp3_western_hi_nob_01
+				}
+				boy = male
+				girl = female				
+			}
+			
+			sp3_western_royalty_headdress = {	
+			    index = 5
+				male = {}
+				female = {
+					10 = empty
+					10 = f_headgear_sec_sp3_western_hi_nob_01
+				}
+			}			
+		}
+
+			
+	}
+}

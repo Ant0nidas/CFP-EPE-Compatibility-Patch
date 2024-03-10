@@ -1,0 +1,18 @@
+﻿#CFP+EPE unmodified from CFP_clothing_triggers
+## OVERWRITTING DEFAULT CLASSES
+portrait_mena_clothing_contents_trigger = {
+	has_clothing_gfx = mena_clothing_gfx
+	NOR = {
+		has_cultural_pillar = heritage_east_african
+		has_cultural_pillar = heritage_somalian
+	}	
+}
+portrait_african_clothing_contents_trigger = {
+	OR = { 
+		has_clothing_gfx = african_clothing_gfx
+		AND = {
+			has_clothing_gfx = mena_clothing_gfx
+			has_cultural_pillar = heritage_east_african
+		}
+	}
+}
