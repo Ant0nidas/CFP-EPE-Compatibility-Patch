@@ -438,6 +438,13 @@ accessory_genes = {
 				1 = male_cloaks_secular_mena_cfp_double_harness_01
 			}
 			female = {
+					####Butr/zaghawa - nomadic Berber
+					1 = empty				
+					1 = f_cloaks_epe_butr_common_01
+					1 = f_cloaks_epe_butr_low_nob_01
+					1 = f_cloaks_epe_butr_high_nob_01	
+					
+					####Baranis - settled/Coastal Berber
 				1 = empty
 				1 = f_cloaks_sec_afr_common_01
 				1 = f_cloaks_sec_afr_low_nob_01
@@ -1370,52 +1377,52 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-	# CE1
-	fp4_shawm = {
-		index = 33
-		male = {
-			1 = fp4_shawm_01_a
+		# CE1
+		fp4_shawm = {
+			index = 33
+			male = {
+				1 = fp4_shawm_01_a
+			}
+			female = male
+			boy = male
+			girl = female
 		}
-		female = male
-		boy = male
-		girl = female
-	}
-	fp4_bronzemortar = {
-		index = 34
-		male = {
-			1 = fp4_bronzemortar_01_a
+		fp4_bronzemortar = {
+			index = 34
+			male = {
+				1 = fp4_bronzemortar_01_a
+			}
+			female = male
+			boy = male
+			girl = female
 		}
-		female = male
-		boy = male
-		girl = female
-	}
-	fp4_lute = {
-		index = 35
-		male = {
-			1 = fp4_lute_01_a
+		fp4_lute = {
+			index = 35
+			male = {
+				1 = fp4_lute_01_a
+			}
+			female = male
+			boy = male
+			girl = female
 		}
-		female = male
-		boy = male
-		girl = female
-	}
-	fp4_alto_flute = {
-		index = 36
-		male = {
-			1 = fp4_alto_flute_01_a
+		fp4_alto_flute = {
+			index = 36
+			male = {
+				1 = fp4_alto_flute_01_a
+			}
+			female = male
+			boy = male
+			girl = female
 		}
-		female = male
-		boy = male
-		girl = female
-	}
-	fp4_chifonie_still = {
-		index = 37
-		male = {
-			1 = fp4_chifonie_still_01_a
+		fp4_chifonie_still = {
+			index = 37
+			male = {
+				1 = fp4_chifonie_still_01_a
+			}
+			female = male
+			boy = male
+			girl = female
 		}
-		female = male
-		boy = male
-		girl = female
-	}
 	
 		########################################
 		## Community Flavor Pack - new groups ##
@@ -2366,4 +2373,5 @@ accessory_genes = {
 			girl = female
 		}
 	}
+}
 }

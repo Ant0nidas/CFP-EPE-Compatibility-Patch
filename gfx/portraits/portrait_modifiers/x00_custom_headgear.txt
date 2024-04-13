@@ -1464,7 +1464,7 @@ custom_headgear = {
 
 custom_headgear_2 = {
 	usage = customization
-	interface_position = 10
+	interface_position = 4
 
 
 	add_accessory_modifiers = {
@@ -1479,6 +1479,46 @@ custom_headgear_2 = {
 	add_accessory_modifiers = {
 		gene = headgear_2
 		template = western_high_nobility_independent
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = fp4_western_royalty
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = fp4_western_cloak_hoods
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = epe_holy_crown_of_hungary
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = epe_holy_crown_of_hungary_early
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = epe_sicily_title_royalty
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = fp4_western_common
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = fp4_western_low_nobility
+	}
+
+	add_accessory_modifiers = {
+		gene = headgear_2
+		template = fp4_western_era3_common
 	}
 
 	#add_accessory_modifiers = {

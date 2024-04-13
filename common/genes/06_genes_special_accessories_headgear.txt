@@ -155,6 +155,12 @@ special_genes = {
 					1 = m_headgear_sec_afr_war_nob_01
 					#FP4
 					1 = m_headgear_sec_fp4_western_roy_01
+					#EPE Hungary
+					1 = male_epe_holy_crown_of_hungary_01
+					1 = male_epe_holy_crown_of_hungary_01e
+					#EPE Misc
+					1 = male_western_royal_crown_04
+					1 = male_western_royal_crown_05
 				}
 
 				female = {
@@ -283,6 +289,13 @@ special_genes = {
 					1 = f_headgear_sec_afr_war_nob_01
 					#FP4
 					1 = f_headgear_sec_fp4_western_roy_01
+					#Hungary
+					1 = female_epe_holy_crown_of_hungary_01
+					1 = female_epe_holy_crown_of_hungary_01e
+					#EPE Misc
+					1 = female_western_royal_crown_04
+					1 = female_western_royal_crown_05
+
 				}
 
 				boy = male
@@ -357,9 +370,11 @@ special_genes = {
 			western_royalty = {
 				index = 4
 				male = {
-					1 = male_headgear_secular_western_royalty_01
-					1 = male_headgear_secular_western_royalty_02
-					1 = m_headgear_sec_fp4_western_roy_01
+					#1 = male_headgear_secular_western_royalty_01
+					#1 = male_headgear_secular_western_royalty_02
+					#EPE
+					1 = male_frankish_royal_crown_01_b #Frankish style crown similar to the Essen Crown
+					1 = m_headgear_sec_ep2_western_era1_roy_01 #Frankish style crown fits Era 1 and Era 2
 					#CFP
 					1 = male_headgear_secular_western_cfp_royalty_03
 					1 = male_headgear_secular_western_cfp_royalty_01
@@ -368,12 +383,10 @@ special_genes = {
 					1 = male_headgear_secular_western_cfp_royalty_05
 					1 = male_headgear_secular_western_cfp_royalty_06
 					1 = male_headgear_secular_western_cfp_royalty_07
-					#EPE
-					1 = male_frankish_royal_crown_01_b
 				}
 				female = {
-					1 = female_headgear_secular_western_royalty_01
-					1 = female_headgear_secular_western_royalty_02
+					#1 = female_headgear_secular_western_royalty_01
+					#1 = female_headgear_secular_western_royalty_02
 					1 = f_headgear_sec_fp4_western_roy_01
 					#CFP
 					1 = female_headgear_secular_western_cfp_royalty_03
@@ -385,6 +398,13 @@ special_genes = {
 					1 = female_headgear_secular_western_cfp_royalty_07
 					#EPE
 					1 = female_frankish_royal_crown_01_b
+					1 = female_fra_royal_crown_01_veil_01
+					1 = female_fra_royal_crown_01_veil_02
+					1 = female_fra_royal_crown_01_veil_03
+					1 = female_fra_royal_crown_02_b
+					1 = female_fra_royal_crown_02_veil_01
+					1 = female_fra_royal_crown_02_veil_02
+					1 = female_fra_royal_crown_02_veil_03
 				}
 				boy = male
 				girl = female
@@ -698,7 +718,7 @@ special_genes = {
 				male = {
 					6 = male_headgear_secular_western_imperial_01
 					#CFP
-					1 = male_headgear_secular_western_cfp_imperial_01
+					#1 = male_headgear_secular_western_cfp_imperial_01
 					
 				}
 				female = {
@@ -2058,7 +2078,7 @@ special_genes = {
 					5 = m_headgear_sec_ep2_western_era1_com_01
 				}
 				female = {
-					20 = empty
+					# 20 = empty
 					10 = f_headgear_sec_ep2_western_era1_com_01
 					10 = f_headgear_sec_ep2_western_era1_com_02
 				}
@@ -2206,6 +2226,7 @@ special_genes = {
 					1 = male_headgear_secular_western_royalty_02
 					1 = m_headgear_sec_fp4_western_roy_01
 					1 = male_western_royal_crown_04
+					1 = male_western_royal_crown_05
 					# 1 = male_headgear_secular_dde_hre_royalty_02
 				}
 				female = {
@@ -2213,6 +2234,8 @@ special_genes = {
 					1 = female_headgear_secular_western_royalty_02
 					1 = f_headgear_sec_fp4_western_roy_01
 					1 = female_western_royal_crown_04
+					1 = female_western_royal_crown_05
+					1 = female_western_royal_crown_06
 					# 1 = female_headgear_secular_dde_hre_royalty_01
 				}
 				boy = male
@@ -4947,6 +4970,7 @@ special_genes = {
 			sp3_western_royalty = {
 				index = 253
 				male = {
+					1 = m_headgear_sec_sp3_western_hi_nob_01 # Vair fur brimmed Hat also worn by French Kings from time to time.
 					1 = m_headgear_sec_sp3_western_roy_01
 				}
 				female = {

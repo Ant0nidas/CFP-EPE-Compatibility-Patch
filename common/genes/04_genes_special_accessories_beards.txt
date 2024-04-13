@@ -915,13 +915,12 @@ special_genes = {
 				5 = mena_islamic_pointed_beard		
 				5 = mena_islamic_pointed_beard_03
 				7 = male_mustache_iranian_05
-				5 = male_beard_mena_07 #
+				#5 = male_beard_mena_07 #
 				5 = male_beard_western_8b #		
 				5 = male_beard_western_8c #		
 				5 = male_beard_western_8d #	
-				5 = male_beard_western_8e #	
-				5 = male_beard_western_8f #	
-	
+				#5 = male_beard_western_8e #	
+				#5 = male_beard_western_8f #
 				}
 				female = {
 					1 = empty
@@ -943,12 +942,12 @@ special_genes = {
 				5 = mena_islamic_pointed_beard		
 				5 = mena_islamic_pointed_beard_03
 				5 = male_mustache_iranian_05
-				5 = male_beard_mena_07 #
+				#5 = male_beard_mena_07 #
 				5 = male_beard_western_8b #		
 				5 = male_beard_western_8c #		
 				5 = male_beard_western_8d #	
-				5 = male_beard_western_8e #	
-				5 = male_beard_western_8f #		
+				#5 = male_beard_western_8e #	
+				#5 = male_beard_western_8f #		
 				}
 				female = {
 					1 = empty
@@ -1078,8 +1077,8 @@ special_genes = {
 					5 = male_beard_western_8b #		
 					5 = male_beard_western_8c #		
 					5 = male_beard_western_8d #	
-					5 = male_beard_western_8e #	
-					5 = male_beard_western_8f #	
+					#5 = male_beard_western_8e #	
+					#5 = male_beard_western_8f #	
 					1 = m_beard_fp3_iranian_01 # Medium beard with bun
 					1 = m_beard_fp3_iranian_02 # Long pointy beard
 	
@@ -1100,8 +1099,8 @@ special_genes = {
 					2 = male_beard_western_8b #		
 					2 = male_beard_western_8c #		
 					2 = male_beard_western_8d #	
-					2 = male_beard_western_8e #	
-					2 = male_beard_western_8f #		
+					#2 = male_beard_western_8e #	
+					#2 = male_beard_western_8f #		
 					5 = m_beard_fp3_iranian_02 # Long pointy beard
 					5 = m_beard_fp3_iranian_03 	# Babylonian beard	
 				}
