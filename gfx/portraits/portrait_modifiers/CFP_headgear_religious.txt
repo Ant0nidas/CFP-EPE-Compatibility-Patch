@@ -10,7 +10,7 @@
 	    dna_modifiers = {
 	        accessory = {
 	            mode = add
-	            gene = headgear_CFP
+	            gene = headgear_2
 	            template = cfp_african_religious_masks
 	            range = { 0 1 }
 	        }
@@ -50,7 +50,7 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_religious_orthodox_devoted
 				range = { 0 1 }
 			}
@@ -88,7 +88,7 @@
 	#    dna_modifiers = {
 	#        accessory = {
 	#            mode = add
-	#            gene = headgear_CFP
+	#            gene = headgear_2
 	#            template = no_headgear # Orthodox had no headgear before 1500s
 	#            range = { 0 1 }
 	#        }
@@ -124,7 +124,7 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_religious_catholic_pilgrim
 				range = { 0 1 }
 			}
@@ -157,7 +157,7 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_religious_catholic_high_northern
 				range = { 0 1 }
 			}
@@ -195,7 +195,7 @@
 			}
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_religious_catholic_cardinal
 				range = { 0 1 }
 			}
@@ -256,7 +256,7 @@
 			}
 			accessory = {
 			  mode = add
-			  gene = headgear_CFP
+			  gene = headgear_2
 			  template = no_headgear
 			  range = { 0 1 }
 			}
@@ -278,7 +278,7 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_religious_catholic_head_early
 				range = { 0 1 }
 			}
@@ -311,7 +311,7 @@
 			}
 			accessory = {
 			  mode = add
-			  gene = headgear_CFP
+			  gene = headgear_2
 			  template = no_headgear
 			  range = { 0 1 }
 			}
@@ -339,7 +339,7 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_religious_catholic_head_early
 				range = { 0 1 }
 			}
@@ -371,7 +371,7 @@
 	    dna_modifiers = {
 	        accessory = {
 	            mode = add
-	            gene = headgear_CFP
+	            gene = headgear_2
 	            template = cfp_religious_jewish_common
 	            accessory = male_headgear_religious_jewish_cfp_judenhut_01
 	        }
@@ -396,7 +396,7 @@
 	    dna_modifiers = {
 	        accessory = {
 	            mode = add
-	            gene = headgear_CFP
+	            gene = headgear_2
 	            template = cfp_religious_jewish_common
 	            accessory = male_headgear_religious_jewish_cfp_sudra_01
 	        }
@@ -421,7 +421,7 @@
 	    dna_modifiers = {
 	        accessory = {
 	            mode = add
-	            gene = headgear_CFP
+	            gene = headgear_2
 	            template = cfp_religious_jewish_common
 	            accessory = male_headgear_religious_jewish_cfp_judenhut_02
 	        }
@@ -457,7 +457,7 @@
 			}
 			accessory = {
 			  mode = add
-			  gene = headgear_CFP
+			  gene = headgear_2
 			  template = no_headgear
 			  range = { 0 1 }
 			}
@@ -477,7 +477,7 @@
 	    dna_modifiers = {
 	        accessory = {
 	            mode = add
-	            gene = headgear_CFP
+	            gene = headgear_2
 	            template = cfp_religious_muslim_high_turkic
 	            range = { 0 1 }
 	        }
@@ -508,7 +508,7 @@
 	    dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_religious_buddhist_tibetan_mask
 				range = { 0 1 }
 			}
@@ -550,7 +550,7 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = no_headgear
 				range = { 0 1 }
 			}

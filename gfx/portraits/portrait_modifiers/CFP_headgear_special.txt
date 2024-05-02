@@ -17,12 +17,6 @@
 			}
 			accessory = {
 				mode = add
-				gene = headgear_CFP
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
 				gene = headgear_2
 				template = no_headgear
 				value = 0
@@ -72,25 +66,207 @@
         }
     }
 
+	### Croatia Kingdom titles	 ###
+	croatian_title_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = croatia_title_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+			  mode = add
+			  gene = headgear_2
+			  template = no_headgear
+			  range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_crown_of_zvonimir_trigger = yes
+			}
+			modifier = {
+				add = 100
+				portrait_crown_of_zvonimir_trigger = yes
+				is_female = yes
+			}
+		}
+	}
+	
+	### Sicilian Kingdom titles	 ###
+		sicily_title_royalty = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = headgear
+					template = no_headgear
+					range = { 0 1 } # For the randomness to work correctly
+				}
+				accessory = {
+					mode = add
+					gene = headgear_2
+					template = epe_sicily_title_royalty
+					range = { 0 1 } # For the randomness to work correctly
+				}
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 100
+					portrait_crown_of_sicily_trigger = yes
+				}
+				modifier = {
+					add = 100
+					portrait_crown_of_sicily_trigger = yes
+					is_female = yes
+				}
+			}
+		}
+
+	#Holy Crown of Hungary Late and Early
+	hungarian_title_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+                mode = add
+                gene = headgear_2
+                template = epe_holy_crown_of_hungary
+				range = { 0 1 } # For the randomness to work correctly
+            }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_hch_trigger = yes
+				has_ep2_dlc_trigger = yes
+                OR = {
+					portrait_era3_trigger = yes
+					portrait_era4_trigger = yes
+                }
+			}
+			modifier = {
+				add = 100
+				portrait_hch_trigger = yes
+				has_ep2_dlc_trigger = yes
+                OR = {
+					portrait_era3_trigger = yes
+					portrait_era4_trigger = yes
+                }
+				is_female = yes
+			}
+			
+		}
+	}
+
+	hungarian_title_royalty_early = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+                mode = add
+                gene = headgear_2
+                template = epe_holy_crown_of_hungary_early
+				range = { 0 1 } # For the randomness to work correctly
+            }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_hch_trigger = yes
+				has_ep2_dlc_trigger = yes
+                OR = {
+					portrait_era1_trigger = yes
+					portrait_era2_trigger = yes
+                }
+			}
+			modifier = {
+				add = 100
+				portrait_hch_trigger = yes
+				has_ep2_dlc_trigger = yes
+                OR = {
+					portrait_era1_trigger = yes
+					portrait_era2_trigger = yes
+                }
+				is_female = yes
+			}
+			
+		}
+	}
+
+	### Crown of Castille
+	epe_iberian_castilian_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp2_christian_royalty
+				range = { 0 1 }
+			}
+			accessory = {
+			  mode = add
+			  gene = headgear_2
+			  template = no_headgear
+			  range = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = additive_headgear
+				template = western_veils
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				exists = this
+				NOR = {
+					portrait_wear_no_headgear_trigger = yes
+					portrait_wear_helmet_trigger = yes
+				}
+				portrait_religious_christian_trigger = yes
+				OR = {
+					AND = {
+						exists = this
+						has_primary_title = title:k_castille
+					}
+					AND = {
+						exists = primary_title
+						has_primary_title = title:e_spain
+						has_title = title:k_castille
+					}
+				}
+			}
+		}
+	}
+
 ## Crowns for specific titles
 
 	cfp_hungarian_royalty = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_hungarian_royalty
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
 				template = no_headgear
 				value = 0
 			}
@@ -129,19 +305,13 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_albanian_royalty
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
 				template = no_headgear
 				value = 0
 			}
@@ -174,19 +344,13 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_croatian_royalty
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
 				template = no_headgear
 				value = 0
 			}
@@ -210,19 +374,13 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_anglo_saxon_royalty
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
 				template = no_headgear
 				value = 0
 			}
@@ -251,19 +409,13 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_latin_venetian_royalty
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
 				template = no_headgear
 				value = 0
 			}
@@ -290,19 +442,13 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_iberian_castilian_royalty
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
 				template = no_headgear
 				value = 0
 			}
@@ -342,19 +488,13 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_iberian_aragonese_royalty
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
 				template = no_headgear
 				value = 0
 			}
@@ -391,19 +531,13 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_rre_imperial
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
 				template = no_headgear
 				value = 0
 			}
@@ -430,19 +564,13 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_trait_laurel
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
 				template = no_headgear
 				value = 0
 			}
@@ -488,19 +616,13 @@
 		dna_modifiers = {
 			accessory = {
 				mode = add
-				gene = headgear_CFP
+				gene = headgear_2
 				template = cfp_fantasy_witches
 				range = { 0 1 }
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = no_headgear
-				value = 0
-			}
-			accessory = {
-				mode = add
-				gene = headgear_2
 				template = no_headgear
 				value = 0
 			}

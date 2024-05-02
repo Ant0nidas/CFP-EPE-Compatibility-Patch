@@ -4,6 +4,108 @@
 	selection_behavior = weighted_random
 	priority = 5
 
+		####Western Spymaster
+		western_spymaster_headgear = {
+			# outfit_tags = { rank_headgear } 
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = headgear_2
+					template = epe_spymaster_headgears
+					accessory = male_epe_western_spy_master_hood				
+				}
+				accessory = {
+					mode = add
+					gene = headgear
+					template = no_headgear
+					range = { 0 1 }
+				}
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 110
+					age > 17
+					exists = this
+					OR = {
+						AND = {
+							has_council_position = councillor_spymaster
+							highest_held_title_tier < tier_county
+							is_clergy = no
+						}
+					}
+					NOT = {
+						portrait_wear_armor_trigger = yes
+						OR = {
+							has_government = theocracy_government
+						}
+					}				
+					OR = {
+						portrait_byzantine_clothing_trigger = yes
+						portrait_northern_clothing_trigger = yes
+						portrait_western_clothing_trigger = yes
+						portrait_epe_french_clothing_trigger = yes
+						portrait_epe_english_clothing_trigger = yes
+						portrait_epe_gaelic_clothing_trigger = yes
+						portrait_epe_east_slav_clothing_trigger = yes
+						portrait_epe_balto_finnic_clothing_trigger = yes
+						portrait_epe_georgian_clothing_trigger = yes
+						portrait_epe_bulgarian_clothing_trigger = yes
+						portrait_epe_armenian_clothing_trigger = yes
+						portrait_epe_south_slav_clothing_trigger = yes
+					}
+				}
+			}
+		}
+	
+		####MENA Spymaster
+		mena_spymaster_headgear = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = headgear_2
+					template = epe_spymaster_headgears
+					accessory = male_headgear_epe_mena_spy_master_01	
+				}
+				accessory = {
+					mode = add
+					gene = headgear
+					template = no_headgear
+					range = { 0 1 }
+				}
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 110
+					age > 17
+					exists = this
+					OR = {
+						AND = {
+							has_council_position = councillor_spymaster
+							highest_held_title_tier < tier_county
+							is_clergy = no						
+						}
+					}
+					NOT = {
+						portrait_wear_armor_trigger = yes
+						OR = {
+							has_government = theocracy_government
+						}
+					}				
+					OR = {
+						portrait_mena_clothing_trigger = yes
+						portrait_epe_maghreb_clothing_trigger = yes
+						portrait_epe_seljuk_clothing_trigger = yes
+						portrait_dde_abbasid_clothing_trigger = yes
+						portrait_epe_islamic_iranian_clothing_trigger = yes
+						portrait_epe_non_islamic_iranian_clothing_trigger = yes
+						portrait_epe_hindu_iranian_clothing_trigger = yes		
+						portrait_epe_bedouin_clothing_trigger = yes						
+					}
+				}
+			}
+		}
 
 	western_stealth = {
 		dna_modifiers = {
@@ -14,11 +116,11 @@
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
-			  mode = add
-			  gene = headgear_CFP
-			  template = no_headgear
-			  range = { 0 1 }
-			}
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
+			  }
 		}
 		outfit_tags = {
 			western_stealth
@@ -47,10 +149,10 @@
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
-			  mode = add
-			  gene = headgear_CFP
-			  template = no_headgear
-			  range = { 0 1 }
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = {
@@ -82,10 +184,10 @@
 				range = { 0 1 }
 			}
 			accessory = {
-			  mode = add
-			  gene = headgear_CFP
-			  template = no_headgear
-			  range = { 0 1 }
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = { jester_outfit }
@@ -119,10 +221,10 @@
 				range = { 0 1 }
 			}
 			accessory = {
-			  mode = add
-			  gene = headgear_CFP
-			  template = no_headgear
-			  range = { 0 1 }
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
 			}
 		}
 	    weight = {
@@ -150,10 +252,10 @@
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
-			  mode = add
-			  gene = headgear_CFP
-			  template = no_headgear
-			  range = { 0 1 }
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
 			}
 		}	
 		weight = {
@@ -180,10 +282,10 @@
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
-			  mode = add
-			  gene = headgear_CFP
-			  template = no_headgear
-			  range = { 0 1 }
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
 			}
 		}	
 		outfit_tags = { spouse_outfit }
@@ -216,10 +318,10 @@
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
-			  mode = add
-			  gene = headgear_CFP
-			  template = no_headgear
-			  range = { 0 1 }
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
 			}
 		}	
 		outfit_tags = { spouse_outfit }
@@ -258,10 +360,10 @@
 				range = { 0 1 } # For the randomness to work correctly
 			}
 			accessory = {
-			  mode = add
-			  gene = headgear_CFP
-			  template = no_headgear
-			  range = { 0 1 }
+				mode = add
+				gene = headgear_2
+				template = no_headgear
+				range = { 0 1 }
 			}
 		}
 		outfit_tags = { spouse_outfit }
